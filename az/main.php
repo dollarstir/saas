@@ -4,27 +4,27 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="az/assets/css/bootstrap.min.css">
 
-<link rel="stylesheet" href="assets/css/animate.css">
+<link rel="stylesheet" href="az/assets/css/animate.css">
 
-<link rel="stylesheet" href="assets/css/icofont.min.css">
+<link rel="stylesheet" href="az/assets/css/icofont.min.css">
 
-<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+<link rel="stylesheet" href="az/assets/css/owl.carousel.min.css">
 
-<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+<link rel="stylesheet" href="az/assets/css/owl.theme.default.min.css">
 
-<link rel="stylesheet" href="assets/css/magnific-popup.css">
+<link rel="stylesheet" href="az/assets/css/magnific-popup.css">
 
-<link rel="stylesheet" href="assets/css/meanmenu.css">
+<link rel="stylesheet" href="az/assets/css/meanmenu.css">
 
-<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="az/assets/css/style.css">
 
-<link rel="stylesheet" href="assets/css/responsive.css">
+<link rel="stylesheet" href="az/assets/css/responsive.css">
 
 <title>Fixa - Transport & Logistics HTML Template</title>
 
-<link rel="icon" type="image/png" href="assets/img/favicon.png">
+<link rel="icon" type="image/png" href="az/assets/img/favicon.png">
 </head>
 <body>
 
@@ -45,100 +45,100 @@
 <div class="navbar-area nav-style-two fixed-top">
 
 <div class="mobile-nav">
-<a href="index.html" class="logo">
-<img src="assets/img/logo.png" alt="logo">
+<a href="az/index.html" class="logo">
+<img src="az/assets/img/logo.png" alt="logo">
 </a>
 </div>
 
 <div class="main-nav">
 <div class="container">
 <nav class="navbar navbar-expand-lg navbar-light">
-<a class="navbar-brand" href="index.html">
-<img src="assets/img/logo-3.png" alt="logo">
+<a class="navbar-brand" href="az/index.html">
+<img src="az/assets/img/logo-3.png" alt="logo">
 </a>
 <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
 <ul class="navbar-nav ms-auto">
 <li class="nav-item">
-<a href="#" class="nav-link dropdown-toggle active">Home</a>
+<a href="az/#" class="nav-link dropdown-toggle active">Home</a>
 <ul class="dropdown-menu">
 <li class="nav-item">
-<a href="index.html" class="nav-link">Home Page 1</a>
+<a href="az/index.html" class="nav-link">Home Page 1</a>
 </li>
 <li class="nav-item">
-<a href="index-two.html" class="nav-link active">Home Page 2</a>
+<a href="az/index-two.html" class="nav-link active">Home Page 2</a>
 </li>
 <li class="nav-item">
-<a href="index-three.html" class="nav-link">Home Page 3</a>
+<a href="az/index-three.html" class="nav-link">Home Page 3</a>
 </li>
 </ul>
 </li>
 <li class="nav-item">
-<a href="about.html" class="nav-link">About</a>
+<a href="az/about.html" class="nav-link">About</a>
 </li>
 <li class="nav-item">
-<a href="#" class="nav-link dropdown-toggle">Services</a>
+<a href="az/#" class="nav-link dropdown-toggle">Services</a>
 <ul class="dropdown-menu">
  <li class="nav-item">
-<a href="service.html" class="nav-link">Services One</a>
+<a href="az/service.html" class="nav-link">Services One</a>
 </li>
 <li class="nav-item">
-<a href="service-two.html" class="nav-link">Services Two</a>
+<a href="az/service-two.html" class="nav-link">Services Two</a>
 </li>
 <li class="nav-item">
-<a href="ocean-freight.html" class="nav-link">Ocean Freight</a>
+<a href="az/ocean-freight.html" class="nav-link">Ocean Freight</a>
 </li>
 <li class="nav-item">
-<a href="service-details.html" class="nav-link">Services Details</a>
+<a href="az/service-details.html" class="nav-link">Services Details</a>
 </li>
 </ul>
 </li>
 <li class="nav-item">
-<a href="#" class="nav-link dropdown-toggle">Workers</a>
+<a href="az/#" class="nav-link dropdown-toggle">Workers</a>
 <ul class="dropdown-menu">
 <li class="nav-item">
-<a href="worker.html" class="nav-link">Workers Style One</a>
+<a href="az/worker.html" class="nav-link">Workers Style One</a>
 </li>
 <li class="nav-item">
-<a href="worker-two.html" class="nav-link">Workers Style Two</a>
+<a href="az/worker-two.html" class="nav-link">Workers Style Two</a>
 </li>
 </ul>
 </li>
 <li class="nav-item">
-<a href="#" class="nav-link dropdown-toggle">Pages</a>
+<a href="az/#" class="nav-link dropdown-toggle">Pages</a>
 <ul class="dropdown-menu">
 <li class="nav-item">
-<a href="faq.html" class="nav-link">FAQ</a>
+<a href="az/faq.html" class="nav-link">FAQ</a>
 </li>
 <li class="nav-item">
-<a href="404.html" class="nav-link">404</a>
+<a href="az/404.html" class="nav-link">404</a>
 </li>
 <li class="nav-item">
-<a href="why-choose.html" class="nav-link">Why Choose Us</a>
+<a href="az/why-choose.html" class="nav-link">Why Choose Us</a>
 </li>
 <li class="nav-item">
-<a href="privacy.html" class="nav-link">Privacy policy</a>
+<a href="az/privacy.html" class="nav-link">Privacy policy</a>
 </li>
 <li class="nav-item">
-<a href="terms.html" class="nav-link">Terms & Conditions</a>
+<a href="az/terms.html" class="nav-link">Terms & Conditions</a>
 </li>
 </ul>
 </li>
 <li class="nav-item">
-<a href="#" class="nav-link dropdown-toggle">Blog</a>
+<a href="az/#" class="nav-link dropdown-toggle">Blog</a>
 <ul class="dropdown-menu">
 <li class="nav-item">
-<a href="blog.html" class="nav-link">Blog</a>
+<a href="az/blog.html" class="nav-link">Blog</a>
 </li>
 <li class="nav-item">
-<a href="blog-two.html" class="nav-link">Blog Style Two</a>
+<a href="az/blog-two.html" class="nav-link">Blog Style Two</a>
 </li>
 <li class="nav-item">
-<a href="blog-details.html" class="nav-link">Blog Details</a>
+<a href="az/blog-details.html" class="nav-link">Blog Details</a>
 </li>
 </ul>
 </li>
 <li class="nav-item">
-<a href="contact.html" class="nav-link">Contact Us</a>
+<a href="az/contact.html" class="nav-link">Contact Us</a>
 </li>
 </ul>
 </div>
@@ -158,7 +158,7 @@
 <h1>Being With Fixa Stay Tensed Free</h1>
 <p>Operations deal with the way the vehicles are operated, and the procedures set for this purpose, including financing.</p>
 <div class="theme-btn">
-<a href="#" class="default-btn">Get a Free Call</a>
+<a href="az/#" class="default-btn">Get a Free Call</a>
 </div>
 </div>
 </div>
@@ -245,7 +245,7 @@
 <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-duration="1s">
 <div class="transport-card">
 <div class="transport-img">
-<img src="assets/img/services/1.jpg" alt="transport image">
+<img src="az/assets/img/services/1.jpg" alt="transport image">
 </div>
 <div class="transport-text">
 <i class="icofont-airplane-alt"></i>
@@ -257,7 +257,7 @@
 <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
 <div class="transport-card">
 <div class="transport-img">
-<img src="assets/img/services/2.jpg" alt="transport image">
+<img src="az/assets/img/services/2.jpg" alt="transport image">
 </div>
 <div class="transport-text">
 <i class="icofont-truck-loaded"></i>
@@ -269,7 +269,7 @@
 <div class="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
 <div class="transport-card">
 <div class="transport-img">
-<img src="assets/img/services/3.jpg" alt="transport image">
+<img src="az/assets/img/services/3.jpg" alt="transport image">
 </div>
 <div class="transport-text">
 <i class="icofont-sail-boat-alt-1"></i>
@@ -314,7 +314,7 @@
 </div>
 <div class="col-lg-6 wow fadeInUp">
 <div class="why-choose-image">
-<img src="assets/img/why-choose/choose-img.png" alt="why Choose image">
+<img src="az/assets/img/why-choose/choose-img.png" alt="why Choose image">
 </div>
 </div>
 <div class="col-lg-3">
@@ -431,7 +431,7 @@ You will be premium member after 5 delivery done.
 </li>
 </ul>
 <div class="theme-btn">
-<a href="#" class="default-btn">Get Free Quote</a>
+<a href="az/#" class="default-btn">Get Free Quote</a>
 </div>
 </div>
 </div>
@@ -452,19 +452,19 @@ You will be premium member after 5 delivery done.
 </div>
 <div class="company-slider owl-carousel owl-theme">
 <div class="company-logo">
-<a href="#"><img src="assets/img/company/1.png" alt="logo"></a>
+<a href="az/#"><img src="az/assets/img/company/1.png" alt="logo"></a>
 </div>
 <div class="company-logo">
-<a href="#"><img src="assets/img/company/2.png" alt="logo"></a>
+<a href="az/#"><img src="az/assets/img/company/2.png" alt="logo"></a>
 </div>
 <div class="company-logo">
-<a href="#"><img src="assets/img/company/3.png" alt="logo"></a>
+<a href="az/#"><img src="az/assets/img/company/3.png" alt="logo"></a>
 </div>
 <div class="company-logo">
-<a href="#"><img src="assets/img/company/4.png" alt="logo"></a>
+<a href="az/#"><img src="az/assets/img/company/4.png" alt="logo"></a>
 </div>
 <div class="company-logo">
-<a href="#"><img src="assets/img/company/5.png" alt="logo"></a>
+<a href="az/#"><img src="az/assets/img/company/5.png" alt="logo"></a>
 </div>
 </div>
 </div>
@@ -485,7 +485,7 @@ You will be premium member after 5 delivery done.
 lent and very fast. Many thanks for you kind
 efficient service. I have already and will be
 continue to recommend your services.</p>
-<img src="assets/img/feedback/client-1.png" alt="client image">
+<img src="az/assets/img/feedback/client-1.png" alt="client image">
 <h3>Joe Johnson</h3>
 <span>Businessman</span>
 </div>
@@ -495,7 +495,7 @@ continue to recommend your services.</p>
 lent and very fast. Many thanks for you kind
 efficient service. I have already and will be
 continue to recommend your services.</p>
-<img src="assets/img/feedback/client-2.png" alt="client image">
+<img src="az/assets/img/feedback/client-2.png" alt="client image">
 <h3>Mr. McMachman</h3>
 <span>Businessman</span>
 </div>
@@ -505,7 +505,7 @@ continue to recommend your services.</p>
 lent and very fast. Many thanks for you kind
 efficient service. I have already and will be
 continue to recommend your services.</p>
-<img src="assets/img/feedback/client-3.png" alt="client image">
+<img src="az/assets/img/feedback/client-3.png" alt="client image">
 <h3>John Doe</h3>
 <span>Businessman</span>
 </div>
@@ -525,7 +525,7 @@ continue to recommend your services.</p>
 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-duration="1s">
 <div class="worker-card">
 <div class="worker-img">
-<img src="assets/img/worker/1.jpg" alt="worker image">
+<img src="az/assets/img/worker/1.jpg" alt="worker image">
 </div>
 <div class="worker-text">
 <h3>John Doe</h3>
@@ -536,7 +536,7 @@ continue to recommend your services.</p>
 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
 <div class="worker-card">
 <div class="worker-img">
-<img src="assets/img/worker/2.jpg" alt="worker image">
+<img src="az/assets/img/worker/2.jpg" alt="worker image">
 </div>
 <div class="worker-text">
 <h3>Naimuk Waninolin</h3>
@@ -547,7 +547,7 @@ continue to recommend your services.</p>
 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
 <div class="worker-card">
 <div class="worker-img">
-<img src="assets/img/worker/3.jpg" alt="worker image">
+<img src="az/assets/img/worker/3.jpg" alt="worker image">
 </div>
 <div class="worker-text">
 <h3>Mark Tyson</h3>
@@ -558,7 +558,7 @@ continue to recommend your services.</p>
 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
 <div class="worker-card">
 <div class="worker-img">
-<img src="assets/img/worker/4.jpg" alt="worker image">
+<img src="az/assets/img/worker/4.jpg" alt="worker image">
 </div>
 <div class="worker-text">
 <h3>Jackson</h3>
@@ -582,11 +582,11 @@ continue to recommend your services.</p>
 <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-duration="1s">
 <div class="blog-card">
 <div class="blog-img">
-<a href="blog-details.html"><img src="assets/img/blog/1.png" alt="blog image"></a>
+<a href="az/blog-details.html"><img src="az/assets/img/blog/1.png" alt="blog image"></a>
 </div>
 <div class="blog-text">
 <h3>
-<a href="blog-details.html">Liberalization of Transport & Logistics service</a>
+<a href="az/blog-details.html">Liberalization of Transport & Logistics service</a>
 </h3>
 <ul>
 <li>
@@ -596,7 +596,7 @@ continue to recommend your services.</p>
 </ul>
 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
 <div class="blog-btn text-left">
-<a href="#">
+<a href="az/#">
 <i class="icofont-rounded-double-right"></i>
 </a>
 </div>
@@ -606,11 +606,11 @@ continue to recommend your services.</p>
 <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
 <div class="blog-card">
 <div class="blog-img">
-<a href="blog-details.html"><img src="assets/img/blog/2.png" alt="blog image"></a>
+<a href="az/blog-details.html"><img src="az/assets/img/blog/2.png" alt="blog image"></a>
 </div>
 <div class="blog-text">
 <h3>
-<a href="blog-details.html">New Vehicles in the Fleet – See Our New Scania Trucks</a>
+<a href="az/blog-details.html">New Vehicles in the Fleet – See Our New Scania Trucks</a>
 </h3>
 <ul>
 <li>
@@ -620,7 +620,7 @@ continue to recommend your services.</p>
 </ul>
 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
 <div class="blog-btn text-left">
-<a href="#">
+<a href="az/#">
 <i class="icofont-rounded-double-right"></i>
 </a>
 </div>
@@ -630,11 +630,11 @@ continue to recommend your services.</p>
 <div class="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
 <div class="blog-card">
 <div class="blog-img">
- <a href="blog-details.html"><img src="assets/img/blog/3.png" alt="blog image"></a>
+ <a href="az/blog-details.html"><img src="az/assets/img/blog/3.png" alt="blog image"></a>
 </div>
 <div class="blog-text">
 <h3>
-<a href="blog-details.html">Our Driver Confirm Lorry Repaired as soon as Possible</a>
+<a href="az/blog-details.html">Our Driver Confirm Lorry Repaired as soon as Possible</a>
 </h3>
 <ul>
 <li>
@@ -644,7 +644,7 @@ continue to recommend your services.</p>
 </ul>
 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
 <div class="blog-btn text-left">
-<a href="#">
+<a href="az/#">
 <i class="icofont-rounded-double-right"></i>
 </a>
 </div>
@@ -731,7 +731,7 @@ Subscribe Now
 <div id="validator-newsletter" class="form-result"></div>
 </form>
 </div>
-<img src="assets/img/newsletter-img.png" alt="newsletter image">
+<img src="az/assets/img/newsletter-img.png" alt="newsletter image">
 </div>
 </div>
 </div>
@@ -742,19 +742,19 @@ Subscribe Now
 <div class="row">
 <div class="col-lg-3 col-sm-6">
 <div class="footer-widget">
-<a href="index.html">
-<img src="assets/img/logo-2.png" alt="logo">
+<a href="az/index.html">
+<img src="az/assets/img/logo-2.png" alt="logo">
 </a>
 <ul>
 <li>
 <i class="flaticon-pin"></i>
-<a href="tel:+0112345678">
+<a href="az/tel:+0112345678">
 +1 123 456 789
 </a>
 </li>
 <li>
 <i class="flaticon-pin"></i>
-<a href="../../cdn-cgi/l/email-protection.html#3c54595050537c5a55445d125f5351">
+<a href="az/../../cdn-cgi/l/email-protection.html#3c54595050537c5a55445d125f5351">
 <span class="__cf_email__" data-cfemail="2f474a4343406f4946574e014c4042">[email&#160;protected]</span>
 </a>
 </li>
@@ -764,16 +764,16 @@ Subscribe Now
 </li>
 </ul>
 <div class="footer-social">
-<a href="#" target="_blank">
+<a href="az/#" target="_blank">
 <i class="icofont-facebook"></i>
 </a>
-<a href="#" target="_blank">
+<a href="az/#" target="_blank">
 <i class="icofont-instagram"></i>
 </a>
-<a href="#" target="_blank">
+<a href="az/#" target="_blank">
 <i class="icofont-twitter"></i>
 </a>
-<a href="#" target="_blank">
+<a href="az/#" target="_blank">
 <i class="icofont-linkedin"></i>
 </a>
 </div>
@@ -784,19 +784,19 @@ Subscribe Now
 <h3>Our Services</h3>
 <ul>
 <li>
-<a href="service.html">Air Freight</a>
+<a href="az/service.html">Air Freight</a>
 </li>
 <li>
-<a href="service.html">Road Freight</a>
+<a href="az/service.html">Road Freight</a>
 </li>
 <li>
-<a href="ocean-freight.html">Ocean Freight</a>
+<a href="az/ocean-freight.html">Ocean Freight</a>
 </li>
 <li>
-<a href="service.html">Warehousing</a>
+<a href="az/service.html">Warehousing</a>
 </li>
 <li>
-<a href="service.html">Storage </a>
+<a href="az/service.html">Storage </a>
 </li>
 </ul>
 </div>
@@ -806,19 +806,19 @@ Subscribe Now
 <h3>Our Support</h3>
 <ul>
 <li>
-<a href="privacy.html">Privacy & Policy</a>
+<a href="az/privacy.html">Privacy & Policy</a>
 </li>
 <li>
-<a href="faq.html">FAQS</a>
+<a href="az/faq.html">FAQS</a>
 </li>
 <li>
-<a href="terms.html">Terms & Conditions</a>
+<a href="az/terms.html">Terms & Conditions</a>
 </li>
 <li>
-<a href="contact.html">Contact Us</a>
+<a href="az/contact.html">Contact Us</a>
 </li>
 <li>
-<a href="about.html">About Us</a>
+<a href="az/about.html">About Us</a>
 </li>
 </ul>
 </div>
@@ -828,18 +828,18 @@ Subscribe Now
 <h3>Quick Links</h3>
 <ul>
 <li>
-<a href="index.html">Home</a>
+<a href="az/index.html">Home</a>
 </li>
 <li>
-<a href="about.html">About Us</a>
+<a href="az/about.html">About Us</a>
 </li>
 <li>
-<a href="service.html"> Our Services </a>
+<a href="az/service.html"> Our Services </a>
 <li>
-<a href="blog.html">Our Blog</a>
+<a href="az/blog.html">Our Blog</a>
 </li>
 <li>
-<a href="contact.html">Eemrgency Support</a>
+<a href="az/contact.html">Eemrgency Support</a>
 </li>
 </ul>
 </div>
@@ -847,7 +847,7 @@ Subscribe Now
 </div>
 </div>
 <div class="copyright-area">
-<p>2021 Fixa. All Rights Reserved by <a href="https://hibootstrap.com" target="_blank">HiBootstrap</a></p>
+<p>2021 Fixa. All Rights Reserved by <a href="az/https://hibootstrap.com" target="_blank">HiBootstrap</a></p>
 </div>
 <div class="lines">
 <div class="line"></div>
@@ -861,23 +861,23 @@ Subscribe Now
 <i class="icofont-scroll-bubble-up"></i>
 </div>
 
-<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script data-cfasync="false" src="az/../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="az/assets/js/jquery.min.js"></script>
+<script src="az/assets/js/bootstrap.bundle.min.js"></script>
 
-<script src="assets/js/jquery.ajaxchimp.min.js"></script>
+<script src="az/assets/js/jquery.ajaxchimp.min.js"></script>
 
-<script src="assets/js/form-validator.min.js"></script>
+<script src="az/assets/js/form-validator.min.js"></script>
 
-<script src="assets/js/contact-form-script.js"></script>
+<script src="az/assets/js/contact-form-script.js"></script>
 
-<script src="assets/js/owl.carousel.min.js"></script>
+<script src="az/assets/js/owl.carousel.min.js"></script>
 
-<script src="assets/js/jquery.magnific-popup.min.js"></script>
+<script src="az/assets/js/jquery.magnific-popup.min.js"></script>
 
-<script src="assets/js/wow.min.js"></script>
+<script src="az/assets/js/wow.min.js"></script>
 
-<script src="assets/js/meanmenu.js"></script>
+<script src="az/assets/js/meanmenu.js"></script>
 
-<script src="assets/js/custom.js"></script>
+<script src="az/assets/js/custom.js"></script>
 </body>
 </html>
