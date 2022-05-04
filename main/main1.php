@@ -1,3 +1,6 @@
+<?php
+involve('title');
+?>
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
@@ -23,9 +26,11 @@
 
 <link rel="stylesheet" href="main/assets/css/responsive.css">
 
-<title>Fixa - Transport and Logistics HTML Template</title>
+<title><?php title('Transport and Logistics Services'); ?></title>
 
-<link rel="icon" type="image/png" href="main/assets/img/favicon.png">
+<?php getfavicons(); ?>
+
+<!-- <link rel="icon" type="image/png" href="main/assets/img/favicon.png"> -->
 </head>
 <body>
 
