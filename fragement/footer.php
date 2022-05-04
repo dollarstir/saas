@@ -8,7 +8,7 @@ echo '<footer class="footer-area">
 <div class="row">
 <div class="col-lg-3 col-sm-6">
 <div class="footer-widget">
-<a href="main/index.html">
+<a href="home">
 <img src="main/assets/img/logo-2.png" alt="logo">
 </a>
 <ul>
