@@ -17,7 +17,7 @@ $router = new Router([
     ),
 
     new Route(
-        '/home2',
+        '/agents',
         function ($context) {
             return Viewer::view('main/main1.php', $context);
         }
