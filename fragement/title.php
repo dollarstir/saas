@@ -32,11 +32,11 @@ function agents()
         echo '<div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-duration="1s">
         <div class="worker-card">
             <div class="worker-img">
-                <img loading="lazy" src="">
+                <img loading="lazy" src="yolkassets/upload/'.$row['pic'].'">
             </div>
             <div class="worker-text">
-                <h3>John Doe</h3>
-                <p>Road Freight Collector</p>
+                <h3>'.$row['firstname'].' '.$row['lastname'].'</h3>
+                <p>'.$row['services'].'</p>
             </div>
             <div class="worker-social">
                 <a href="#" target="_blank">
