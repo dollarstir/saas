@@ -1,5 +1,6 @@
 <?php
-involve('top.php');
+involve('header');
+topbar();
 ?>
 <body>
 
@@ -21,7 +22,7 @@ involve('top.php');
 
 <div class="mobile-nav">
 <a href="index.html" class="logo">
-<img src="assets/img/logo.png" alt="logo">
+<img src="main/assets/img/logo.png" alt="logo">
 </a>
 </div>
 
@@ -29,7 +30,7 @@ involve('top.php');
 <div class="container">
 <nav class="navbar navbar-expand-lg navbar-light">
 <a class="navbar-brand" href="index.html">
-<img src="assets/img/logo.png" alt="logo">
+<img src="main/assets/img/logo.png" alt="logo">
 </a>
 <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
 <ul class="navbar-nav ms-auto">
@@ -149,7 +150,7 @@ involve('top.php');
 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-duration="1s">
 <div class="worker-card">
 <div class="worker-img">
-<img src="assets/img/worker/1.jpg" alt="worker image">
+<img src="main/assets/img/worker/1.jpg" alt="worker image">
 </div>
 <div class="worker-text">
 <h3>John Doe</h3>
@@ -174,7 +175,7 @@ involve('top.php');
 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
 <div class="worker-card">
 <div class="worker-img">
-<img src="assets/img/worker/2.jpg" alt="worker image">
+<img src="main/assets/img/worker/2.jpg" alt="worker image">
 </div>
 <div class="worker-text">
 <h3>Naimuk Waninolin</h3>
@@ -199,7 +200,7 @@ involve('top.php');
  <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
 <div class="worker-card">
 <div class="worker-img">
-<img src="assets/img/worker/3.jpg" alt="worker image">
+<img src="main/assets/img/worker/3.jpg" alt="worker image">
 </div>
 <div class="worker-text">
 <h3>Mark Tyson</h3>
@@ -224,7 +225,7 @@ involve('top.php');
 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
 <div class="worker-card">
 <div class="worker-img">
-<img src="assets/img/worker/4.jpg" alt="worker image">
+<img src="main/assets/img/worker/4.jpg" alt="worker image">
 </div>
 <div class="worker-text">
 <h3>Jackson</h3>
@@ -249,7 +250,7 @@ involve('top.php');
 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
 <div class="worker-card">
 <div class="worker-img">
-<img src="https://templates.hibootstrap.com/fixa/default/assets/img/worker/5.jpg" alt="worker image">
+<img src="main/https://templates.hibootstrap.com/fixa/default/assets/img/worker/5.jpg" alt="worker image">
 </div>
 <div class="worker-text">
 <h3>Cameron</h3>
@@ -271,7 +272,7 @@ involve('top.php');
 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
  <div class="worker-card">
 <div class="worker-img">
-<img src="https://templates.hibootstrap.com/fixa/default/assets/img/worker/6.jpg" alt="worker image">
+<img src="main/https://templates.hibootstrap.com/fixa/default/assets/img/worker/6.jpg" alt="worker image">
 </div>
 <div class="worker-text">
 <h3>Henry</h3>
@@ -293,7 +294,7 @@ involve('top.php');
 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
 <div class="worker-card">
 <div class="worker-img">
-<img src="https://templates.hibootstrap.com/fixa/default/assets/img/worker/7.jpg" alt="worker image">
+<img src="main/https://templates.hibootstrap.com/fixa/default/assets/img/worker/7.jpg" alt="worker image">
 </div>
 <div class="worker-text">
 <h3>Dylan</h3>
@@ -315,7 +316,7 @@ involve('top.php');
 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s">
 <div class="worker-card">
 <div class="worker-img">
-<img src="https://templates.hibootstrap.com/fixa/default/assets/img/worker/8.jpg" alt="worker image">
+<img src="main/https://templates.hibootstrap.com/fixa/default/assets/img/worker/8.jpg" alt="worker image">
 </div>
 <div class="worker-text">
 <h3>Frank</h3>
@@ -352,7 +353,7 @@ Subscribe Now
 <div id="validator-newsletter" class="form-result"></div>
 </form>
 </div>
-<img src="assets/img/newsletter-img.png" alt="newsletter image">
+<img src="main/assets/img/newsletter-img.png" alt="newsletter image">
 </div>
 </div>
 </div>
@@ -364,7 +365,7 @@ Subscribe Now
 <div class="col-lg-3 col-sm-6">
 <div class="footer-widget">
 <a href="index.html">
-<img src="assets/img/logo-2.png" alt="logo">
+<img src="main/assets/img/logo-2.png" alt="logo">
 </a>
 <ul>
 <li>
@@ -482,23 +483,6 @@ Subscribe Now
 <i class="icofont-scroll-bubble-up"></i>
 </div>
 
-<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/bootstrap.bundle.min.js"></script>
-
-<script src="assets/js/jquery.ajaxchimp.min.js"></script>
-
-<script src="assets/js/form-validator.min.js"></script>
-
-<script src="assets/js/contact-form-script.js"></script>
-
-<script src="assets/js/owl.carousel.min.js"></script>
-
-<script src="assets/js/jquery.magnific-popup.min.js"></script>
-
-<script src="assets/js/wow.min.js"></script>
-
-<script src="assets/js/meanmenu.js"></script>
-
-<script src="assets/js/custom.js"></script>
+<?php involve('script'); ?>
 </body>
 </html>

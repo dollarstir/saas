@@ -19,7 +19,7 @@ $router = new Router([
     new Route(
         '/agents',
         function ($context) {
-            return Viewer::view('main/main1.php', $context);
+            return Viewer::view('main/agent.php', $context);
         }
     ),
 

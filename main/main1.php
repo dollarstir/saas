@@ -1,6 +1,4 @@
-<?php
-involve('title');
-?>
+
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
