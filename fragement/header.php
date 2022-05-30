@@ -1,6 +1,6 @@
 <?php
 
-function topbar()
+function topbar($title)
 {
     include 'title.php';
 
@@ -29,7 +29,7 @@ function topbar()
     
     <link rel="stylesheet" href="main/assets/css/responsive.css">
     
-    <title>Fixa - Transport and Logistics HTML Template</title>
+    <title>'.title($title).'</title>
     
     <link rel="icon" type="image/png" href="main/assets/img/favicon.png">
     </head>';
