@@ -9,24 +9,24 @@ echo '<footer class="footer-area">
 <div class="col-lg-3 col-sm-6">
 <div class="footer-widget">
 <a href="home">
-<img src="main/assets/img/logo-2.png" alt="logo">
+'.logo().'
 </a>
 <ul>
 <li>
 <i class="icofont-phone"></i>
-<a href="main/tel:+0112345678">
-+1 123 456 789
+<a href="main/tel:'.$a[0]['contact'].'">
+'.$a[0]['contact'].'
 </a>
 </li>
 <li>
 <i class="icofont-ui-message"></i>
-<a href="main/../../cdn-cgi/l/email-protection.html#254d4049494a65434c5d440b464a48">
-<span class="__cf_email__" data-cfemail="741c1118181b34121d0c155a171b19">[email&#160;protected]</span>
+<a href="mailto:'.$a[0]['email'].'">
+<span class="__cf_email__" >'.$a[0]['email'].'</span>
 </a>
 </li>
 <li>
 <i class="icofont-location-pin"></i>
-28/A , New York, USA
+'.$a[0]['address'].'
 </li>
 </ul>
 <div class="footer-social">
