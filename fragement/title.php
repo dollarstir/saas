@@ -61,6 +61,23 @@ function newsletter($email)
 {
     return $res = insert('newsletter', ['email' => $email]);
 }
-function questions()
+function questions($name, $email, $phone, $subject, $message)
 {
+    $dd = date('jS F, Y');
+
+    return $res = insert('messages', [
+        'name' => $name,
+        'email' => $email,
+        'phone' => $phone,
+        'subject' => $subject,
+        'message' => $message,
+        'datesent' => $dd,
+    ]);
+}
+function aboutus()
+{
+    $res = fetchall('aboutpage');
+    $row = $res[0];
+
+    echo '';
 }
