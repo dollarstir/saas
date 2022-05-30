@@ -39,7 +39,7 @@ function agents()
                 <p>'.$row['services'].'</p>
             </div>
             <div class="worker-social">
-                <a href="#" target="_blank">
+                <a href="agent/" target="_blank">
                     <i class="icofont-facebook"></i>
                 </a>
                 <a href="#" target="_blank">
@@ -55,4 +55,9 @@ function agents()
         </div>
     </div>';
     }
+}
+
+function newsletter($email)
+{
+    return $res = insert('newsletter', ['email' => $email]);
 }

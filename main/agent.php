@@ -128,12 +128,12 @@ topbar('Our Trusted Agents');
     <div class="page-title title-bg-7">
         <div class="container">
             <div class="title-text text-center">
-                <h2>Workers Style Two</h2>
+                <h2>AGENTS</h2>
                 <ul>
                     <li>
-                        <a href="index.html">Home</a>
+                        <a href="home">Home</a>
                     </li>
-                    <li>Workers Style Two</li>
+                    <li>Agents</li>
                 </ul>
             </div>
         </div>
@@ -143,8 +143,8 @@ topbar('Our Trusted Agents');
     <section class="worker-section worker-style-two pt-100 pb-70">
         <div class="container">
             <div class="section-title text-center">
-                <span>Workers</span>
-                <h2>Our Valuable Workers</h2>
+                <span>Agents</span>
+                <h2>Our Valuable Agents</h2>
                 <!-- <p>Found parents would couldn't said on. That, feedback there made he was may blind you simple, its yet a own blind you ago hand.</p> -->
             </div>
             <div class="row">
