@@ -1,6 +1,6 @@
 <?php
 involve('header');
-topbar();
+topbar('Our Trusted Agents');
 ?>
 <body>
 
@@ -22,7 +22,7 @@ topbar();
 
 <div class="mobile-nav">
 <a href="index.html" class="logo">
-<img src="main/assets/img/logo.png" alt="logo">
+<img loading ="lazy" src="main/assets/img/logo.png" alt="logo">
 </a>
 </div>
 
@@ -30,7 +30,7 @@ topbar();
 <div class="container">
 <nav class="navbar navbar-expand-lg navbar-light">
 <a class="navbar-brand" href="index.html">
-<img src="main/assets/img/logo.png" alt="logo">
+<img loading ="lazy" src="main/assets/img/logo.png" alt="logo">
 </a>
 <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
 <ul class="navbar-nav ms-auto">
@@ -150,7 +150,7 @@ topbar();
 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-duration="1s">
 <div class="worker-card">
 <div class="worker-img">
-<img src="main/assets/img/worker/1.jpg" alt="worker image">
+<img loading ="lazy" src="main/assets/img/worker/1.jpg" alt="worker image">
 </div>
 <div class="worker-text">
 <h3>John Doe</h3>
@@ -175,7 +175,7 @@ topbar();
 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
 <div class="worker-card">
 <div class="worker-img">
-<img src="main/assets/img/worker/2.jpg" alt="worker image">
+<img loading ="lazy" src="main/assets/img/worker/2.jpg" alt="worker image">
 </div>
 <div class="worker-text">
 <h3>Naimuk Waninolin</h3>
@@ -200,7 +200,7 @@ topbar();
  <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
 <div class="worker-card">
 <div class="worker-img">
-<img src="main/assets/img/worker/3.jpg" alt="worker image">
+<img loading ="lazy" src="main/assets/img/worker/3.jpg" alt="worker image">
 </div>
 <div class="worker-text">
 <h3>Mark Tyson</h3>
@@ -225,7 +225,7 @@ topbar();
 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
 <div class="worker-card">
 <div class="worker-img">
-<img src="main/assets/img/worker/4.jpg" alt="worker image">
+<img loading ="lazy" src="main/assets/img/worker/4.jpg" alt="worker image">
 </div>
 <div class="worker-text">
 <h3>Jackson</h3>
@@ -250,7 +250,7 @@ topbar();
 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
 <div class="worker-card">
 <div class="worker-img">
-<img src="main/https://templates.hibootstrap.com/fixa/default/assets/img/worker/5.jpg" alt="worker image">
+<img loading ="lazy" src="https://templates.hibootstrap.com/fixa/default/assets/img/worker/5.jpg" alt="worker image">
 </div>
 <div class="worker-text">
 <h3>Cameron</h3>
@@ -272,7 +272,7 @@ topbar();
 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
  <div class="worker-card">
 <div class="worker-img">
-<img src="main/https://templates.hibootstrap.com/fixa/default/assets/img/worker/6.jpg" alt="worker image">
+<img loading ="lazy" src="https://templates.hibootstrap.com/fixa/default/assets/img/worker/6.jpg" alt="worker image">
 </div>
 <div class="worker-text">
 <h3>Henry</h3>
@@ -294,7 +294,7 @@ topbar();
 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
 <div class="worker-card">
 <div class="worker-img">
-<img src="main/https://templates.hibootstrap.com/fixa/default/assets/img/worker/7.jpg" alt="worker image">
+<img loading ="lazy" src="https://templates.hibootstrap.com/fixa/default/assets/img/worker/7.jpg" alt="worker image">
 </div>
 <div class="worker-text">
 <h3>Dylan</h3>
@@ -316,7 +316,7 @@ topbar();
 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s">
 <div class="worker-card">
 <div class="worker-img">
-<img src="main/https://templates.hibootstrap.com/fixa/default/assets/img/worker/8.jpg" alt="worker image">
+<img loading ="lazy" src="https://templates.hibootstrap.com/fixa/default/assets/img/worker/8.jpg" alt="worker image">
 </div>
 <div class="worker-text">
 <h3>Frank</h3>
@@ -353,7 +353,7 @@ Subscribe Now
 <div id="validator-newsletter" class="form-result"></div>
 </form>
 </div>
-<img src="main/assets/img/newsletter-img.png" alt="newsletter image">
+<img loading ="lazy" src="main/assets/img/newsletter-img.png" alt="newsletter image">
 </div>
 </div>
 </div>
@@ -365,7 +365,7 @@ Subscribe Now
 <div class="col-lg-3 col-sm-6">
 <div class="footer-widget">
 <a href="index.html">
-<img src="main/assets/img/logo-2.png" alt="logo">
+<img loading ="lazy" src="main/assets/img/logo-2.png" alt="logo">
 </a>
 <ul>
 <li>

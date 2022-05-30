@@ -1,6 +1,6 @@
 <?php
 
-function topbar($title)
+function topbar($title = 'Blank Page')
 {
     include 'title.php';
 
@@ -31,6 +31,6 @@ function topbar($title)
     
     <title>'.title($title).'</title>
     
-    <link rel="icon" type="image/png" href="main/assets/img/favicon.png">
+    '.getfavicons().'
     </head>';
 }

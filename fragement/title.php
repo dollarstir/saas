@@ -4,7 +4,7 @@ function title($page)
 {
     $res = fetchall('appsettings');
 
-    echo $res[0]['appname'].' - '.$page;
+    return $res[0]['appname'].' - '.$page;
 }
 
 function getfavicons()

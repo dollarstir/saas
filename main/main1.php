@@ -1,35 +1,7 @@
-
-<!DOCTYPE html>
-<html lang="zxx">
-<head>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<link rel="stylesheet" href="main/assets/css/bootstrap.min.css">
-
-<link rel="stylesheet" href="main/assets/css/animate.css">
-
-<link rel="stylesheet" href="main/assets/css/icofont.min.css">
-
-<link rel="stylesheet" href="main/assets/css/owl.carousel.min.css">
-
-<link rel="stylesheet" href="main/assets/css/owl.theme.default.min.css">
-
-<link rel="stylesheet" href="main/assets/css/magnific-popup.css">
-
-<link rel="stylesheet" href="main/assets/css/meanmenu.css">
-
-<link rel="stylesheet" href="main/assets/css/style.css">
-
-<link rel="stylesheet" href="main/assets/css/responsive.css">
-
-<title><?php title('Transport and Logistics Services'); ?></title>
-
-<?php getfavicons(); ?>
-
-<!-- <link rel="icon" type="image/png" href="main/assets/img/favicon.png"> -->
-</head>
+<?php
+involve('header');
+topbar('Our Trusted Agents');
+?>
 <body>
 
 <div class="loader-content">
@@ -102,7 +74,7 @@
 
 <div class="mobile-nav">
 <a href="main/index.html" class="logo">
-<img src="main/assets/img/logo.png" alt="logo">
+<img loading ="lazy" src="main/assets/img/logo.png" alt="logo">
 </a>
 </div>
 
@@ -110,7 +82,7 @@
 <div class="container">
 <nav class="navbar navbar-expand-lg navbar-light">
 <a class="navbar-brand" href="main/index.html">
-<img src="main/assets/img/logo.png" alt="logo">
+<img loading ="lazy" src="main/assets/img/logo.png" alt="logo">
 </a>
 <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
 <ul class="navbar-nav ms-auto">
@@ -285,7 +257,7 @@
 <div class="row align-items-center">
 <div class="col-lg-5 wow fadeInUp" data-wow-duration="1s">
 <div class="about-img">
-<img src="main/assets/img/about/1.jpg" alt="about image">
+<img loading ="lazy" src="main/assets/img/about/1.jpg" alt="about image">
 </div>
 </div>
 <div class="col-lg-6">
@@ -342,7 +314,7 @@
 <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-duration="1s">
 <div class="transport-card">
 <div class="transport-img">
-<img src="main/assets/img/services/1.jpg" alt="transport image">
+<img loading ="lazy" src="main/assets/img/services/1.jpg" alt="transport image">
 </div>
 <div class="transport-text">
 <i class="icofont-airplane-alt"></i>
@@ -357,7 +329,7 @@
 <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
 <div class="transport-card">
 <div class="transport-img">
-<img src="main/assets/img/services/2.jpg" alt="transport image">
+<img loading ="lazy" src="main/assets/img/services/2.jpg" alt="transport image">
 </div>
 <div class="transport-text">
 <i class="icofont-truck-loaded"></i>
@@ -372,7 +344,7 @@
 <div class="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
 <div class="transport-card">
 <div class="transport-img">
-<img src="main/assets/img/services/3.jpg" alt="transport image">
+<img loading ="lazy" src="main/assets/img/services/3.jpg" alt="transport image">
 </div>
 <div class="transport-text">
 <i class="icofont-sail-boat-alt-1"></i>
@@ -591,7 +563,7 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-duration="1s">
 <div class="worker-card">
 <div class="worker-img">
-<img src="main/assets/img/worker/1.jpg" alt="worker image">
+<img loading ="lazy" src="main/assets/img/worker/1.jpg" alt="worker image">
 </div>
 <div class="worker-text">
 <h3>John Doe</h3>
@@ -602,7 +574,7 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
 <div class="worker-card">
 <div class="worker-img">
-<img src="main/assets/img/worker/2.jpg" alt="worker image">
+<img loading ="lazy" src="main/assets/img/worker/2.jpg" alt="worker image">
 </div>
 <div class="worker-text">
 <h3>Naimuk Waninolin</h3>
@@ -613,7 +585,7 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
 <div class="worker-card">
 <div class="worker-img">
-<img src="main/assets/img/worker/3.jpg" alt="worker image">
+<img loading ="lazy" src="main/assets/img/worker/3.jpg" alt="worker image">
 </div>
 <div class="worker-text">
 <h3>Mark Tyson</h3>
@@ -624,7 +596,7 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
 <div class="worker-card">
 <div class="worker-img">
-<img src="main/assets/img/worker/4.jpg" alt="worker image">
+<img loading ="lazy" src="main/assets/img/worker/4.jpg" alt="worker image">
 </div>
 <div class="worker-text">
 <h3>Jackson</h3>
@@ -651,7 +623,7 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
 lent and very fast. Many thanks for you kind
 efficient service. I have already and will be
 continue to recommend your services.</p>
-<img src="main/assets/img/feedback/client-1.png" alt="client image">
+<img loading ="lazy" src="main/assets/img/feedback/client-1.png" alt="client image">
 <h3>Joe Johnson</h3>
 <span>Businessman</span>
 </div>
@@ -661,7 +633,7 @@ continue to recommend your services.</p>
 lent and very fast. Many thanks for you kind
 efficient service. I have already and will be
 continue to recommend your services.</p>
-<img src="main/assets/img/feedback/client-2.png" alt="client image">
+<img loading ="lazy" src="main/assets/img/feedback/client-2.png" alt="client image">
 <h3>Mr. McMachman</h3>
 <span>Businessman</span>
 </div>
@@ -671,7 +643,7 @@ continue to recommend your services.</p>
 lent and very fast. Many thanks for you kind
 efficient service. I have already and will be
 continue to recommend your services.</p>
-<img src="main/assets/img/feedback/client-3.png" alt="client image">
+<img loading ="lazy" src="main/assets/img/feedback/client-3.png" alt="client image">
 <h3>John Doe</h3>
 <span>Businessman</span>
 </div>
@@ -684,19 +656,19 @@ continue to recommend your services.</p>
 <div class="container">
 <div class="company-slider owl-carousel owl-theme">
 <div class="company-logo">
-<a href="main/#"><img src="main/assets/img/company/1.png" alt="logo"></a>
+<a href="main/#"><img loading ="lazy" src="main/assets/img/company/1.png" alt="logo"></a>
 </div>
 <div class="company-logo">
-<a href="main/#"><img src="main/assets/img/company/2.png" alt="logo"></a>
+<a href="main/#"><img loading ="lazy" src="main/assets/img/company/2.png" alt="logo"></a>
 </div>
 <div class="company-logo">
-<a href="main/#"><img src="main/assets/img/company/3.png" alt="logo"></a>
+<a href="main/#"><img loading ="lazy" src="main/assets/img/company/3.png" alt="logo"></a>
 </div>
 <div class="company-logo">
-<a href="main/#"><img src="main/assets/img/company/4.png" alt="logo"></a>
+<a href="main/#"><img loading ="lazy" src="main/assets/img/company/4.png" alt="logo"></a>
 </div>
 <div class="company-logo">
-<a href="main/#"><img src="main/assets/img/company/5.png" alt="logo"></a>
+<a href="main/#"><img loading ="lazy" src="main/assets/img/company/5.png" alt="logo"></a>
 </div>
 </div>
 </div>
@@ -715,7 +687,7 @@ continue to recommend your services.</p>
 <div class="blog-card">
 <div class="blog-img">
 <a href="main/blog-details.html">
-<img src="main/assets/img/blog/1.png" alt="blog image">
+<img loading ="lazy" src="main/assets/img/blog/1.png" alt="blog image">
 </a>
 </div>
 <div class="blog-text">
@@ -740,7 +712,7 @@ continue to recommend your services.</p>
 <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
 <div class="blog-card">
 <div class="blog-img">
-<a href="main/blog-details.html"><img src="main/assets/img/blog/2.png" alt="blog image"></a>
+<a href="main/blog-details.html"><img loading ="lazy" src="main/assets/img/blog/2.png" alt="blog image"></a>
 </div>
 <div class="blog-text">
 <h3>
@@ -764,7 +736,7 @@ continue to recommend your services.</p>
 <div class="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
 <div class="blog-card">
 <div class="blog-img">
-<a href="main/blog-details.html"><img src="main/assets/img/blog/3.png" alt="blog image"></a>
+<a href="main/blog-details.html"><img loading ="lazy" src="main/assets/img/blog/3.png" alt="blog image"></a>
 </div>
 <div class="blog-text">
 <h3>
@@ -803,7 +775,7 @@ Subscribe Now
 <div id="validator-newsletter" class="form-result"></div>
 </form>
 </div>
-<img src="main/assets/img/newsletter-img.png" alt="newsletter image">
+<img loading ="lazy" src="main/assets/img/newsletter-img.png" alt="newsletter image">
 </div>
 </div>
 </div>
