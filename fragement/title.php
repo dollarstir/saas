@@ -79,5 +79,57 @@ function aboutus()
     $res = fetchall('aboutpage');
     $row = $res[0];
 
-    echo '';
+    echo '<section class="about-section about-style-two pb-100">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-5">
+                <div class="about-img">
+                    <img src="yolkassets/upload/'.$row['image'].'"
+                        alt="about image">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="about-text">
+                    <div class="section-title">
+                        <span>About Us</span>
+                        <h2>'.$row['title'].'</h2>
+                    </div>
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="about-tab" data-bs-toggle="tab" href="#about" role="tab"
+                                aria-controls="about" aria-selected="true">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="mission-tab" data-bs-toggle="tab" href="#mission" role="tab"
+                                aria-controls="mission" aria-selected="false">Our Mission</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="goal-tab" data-bs-toggle="tab" href="#goal" role="tab"
+                                aria-controls="goal" aria-selected="false">Our Goal</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="about" role="tabpanel"
+                            aria-labelledby="about-tab">
+                            <p>
+                            '.$row['content'].'
+                            </p>
+                        </div>
+                        <div class="tab-pane fade" id="mission" role="tabpanel" aria-labelledby="mission-tab">
+                            <p>'.$row['mission'].'
+                            </p>
+                        </div>
+                        <div class="tab-pane fade" id="goal" role="tabpanel" aria-labelledby="goal-tab">
+                            <p>'.$row['goals'].'
+                            </p>
+                        </div>
+                    </div>
+                    <!--<div class="theme-btn">
+                        <a href="about.html" class="default-btn">Know More</a>
+                    </div>-->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>';
 }
