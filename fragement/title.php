@@ -61,3 +61,6 @@ function newsletter($email)
 {
     return $res = insert('newsletter', ['email' => $email]);
 }
+function questions()
+{
+}
