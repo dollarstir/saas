@@ -243,6 +243,9 @@ function navbar($pid)
     $pages = [
         'Home' => 'home',
         'About' => 'about',
+        'Services' => 'services',
+        'Agents' => 'agents',
+        'Contact' => 'contactus',
     ];
     $tt = '<div class="header-area">
     <div class="container">
