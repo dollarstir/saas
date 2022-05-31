@@ -148,7 +148,7 @@ topbar('Our Trusted Agents');
                 <!-- <p>Found parents would couldn't said on. That, feedback there made he was may blind you simple, its yet a own blind you ago hand.</p> -->
             </div>
             <div class="row">
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-duration="1s">
+                <!-- <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-duration="1s">
                     <div class="worker-card">
                         <div class="worker-img">
                             <img loading="lazy" src="main/assets/img/worker/1.jpg" alt="worker image">
@@ -172,7 +172,9 @@ topbar('Our Trusted Agents');
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> -->
+
+                <?php agents(); ?>
                 
             </div>
         </div>

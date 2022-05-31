@@ -23,6 +23,13 @@ $router = new Router([
         }
     ),
 
+    new Route(
+        '/aboutus',
+        function ($context) {
+            return Viewer::view('main/about.php', $context);
+        }
+    ),
+
     // admin routes
 
     new Route(
