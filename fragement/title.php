@@ -242,7 +242,7 @@ function navbar($pid)
 {
     $pages = [
         'Home' => 'home',
-        'About' => 'about',
+        'About' => 'aboutus',
         'Services' => 'services',
         'Agents' => 'agents',
         'Contact' => 'contactus',
@@ -315,16 +315,27 @@ function navbar($pid)
                     <img loading="lazy" src="main/assets/img/logo.png" alt="logo">
                 </a>
                 <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto">
-                        
-                        <li class="nav-item">
-                            <a href="main/about.html" class="nav-link">About</a>
-                        </li>
-                        
-                    </ul>
+                    <ul class="navbar-nav ms-auto">';
+    $num = 0;
+    foreach ($pages as $key => $value) {
+        ++$num;
+
+        if ($pid == $num) {
+            $tt .= '<li class="nav-item">
+                 <a href="'.$value.'" class="nav-link active">'.$key.'</a>
+                </li>';
+        } else {
+            $tt .= '<li class="nav-item">
+                 <a href="'.$value.'" class="nav-link">'.$key.'</a>
+                </li>';
+        }
+    }
+    $tt .= ' </ul>
                 </div>
             </nav>
         </div>
     </div>
 </div>';
+
+    echo $tt;
 }
