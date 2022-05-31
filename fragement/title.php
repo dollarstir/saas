@@ -214,3 +214,25 @@ function services()
     </div>';
     }
 }
+
+function testimony()
+{
+    $res = fetchall('testimony');
+    foreach ($res as $row) {
+        echo '<div class="feedback-items">
+        <i class="icofont-quote-right"></i>
+        <p>'.$row['feedback'].'.</p>
+        <img loading="lazy" src="yolkassets/upload/'.$row['pic'].'" alt="client image">
+        <h3>'.$row['name'].'</h3>
+        <span>'.$row['position'].'</span>
+    </div>';
+    }
+}
+
+function partners()
+{
+    $res = fetchall('partners');
+    foreach ($res as $row) {
+        echo '';
+    }
+}
