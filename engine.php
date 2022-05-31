@@ -37,6 +37,13 @@ $router = new Router([
         }
     ),
 
+    new Route(
+        '/contactus',
+        function ($context) {
+            return Viewer::view('main/contact.php', $context);
+        }
+    ),
+
     // admin routes
 
     new Route(
