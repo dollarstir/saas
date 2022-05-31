@@ -139,9 +139,10 @@ function faq()
     $res = fetchall('faq');
     $num = 0;
     foreach ($res as $row) {
+        ++$num;
         echo '<div class="accordion-item">
-        <div class="accordion-title" data-tab="item1">
-            <h2>How To Order Product?<i class="icofont-stylish-right down-arrow"></i></h2>
+        <div class="accordion-title" data-tab="item'.$num.'">
+            <h2>'.$row['title'].'<i class="icofont-stylish-right down-arrow"></i></h2>
         </div>
         <div class="accordion-content" id="item1">
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
