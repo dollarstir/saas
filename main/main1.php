@@ -517,7 +517,7 @@ topbar('Welcome');
                     a own blind you ago hand.</p> -->
             </div>
             <div class="feedback-slider owl-carousel owl-theme">
-                
+
                 <?php testimony(); ?>
                 
             </div>
@@ -528,21 +528,8 @@ topbar('Welcome');
     <div class="company-section">
         <div class="container">
             <div class="company-slider owl-carousel owl-theme">
-                <div class="company-logo">
-                    <a href="main/#"><img loading="lazy" src="main/assets/img/company/1.png" alt="logo"></a>
-                </div>
-                <div class="company-logo">
-                    <a href="main/#"><img loading="lazy" src="main/assets/img/company/2.png" alt="logo"></a>
-                </div>
-                <div class="company-logo">
-                    <a href="main/#"><img loading="lazy" src="main/assets/img/company/3.png" alt="logo"></a>
-                </div>
-                <div class="company-logo">
-                    <a href="main/#"><img loading="lazy" src="main/assets/img/company/4.png" alt="logo"></a>
-                </div>
-                <div class="company-logo">
-                    <a href="main/#"><img loading="lazy" src="main/assets/img/company/5.png" alt="logo"></a>
-                </div>
+                <?php  partners(); ?>
+                
             </div>
         </div>
     </div>
