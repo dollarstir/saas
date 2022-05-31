@@ -191,4 +191,26 @@ function contactpage()
 }
 function services()
 {
+    $res = fetchall('services');
+    foreach ($res as $row) {
+        if (strlen($row['content']) > 40) {
+            $content = substr($row['content'], 0, 40).'...';
+        } else {
+            $content = $row['content'];
+        }
+        echo '<div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-duration="1s">
+        <div class="transport-card">
+            <div class="transport-img">
+                <img src="yolkassets/upload/'.$row['image'].'" alt="'.$row['title'].'">
+            </div>
+            <div class="transport-text">
+                <h3>'.$row['title'].'</h3>
+                <p>'.$content.'</p>
+                <div class="theme-btn">
+                    <a href="service-details.html" class="default-btn">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>';
+    }
 }
