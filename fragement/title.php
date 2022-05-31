@@ -236,3 +236,8 @@ function partners()
         echo '';
     }
 }
+// logical navbar by Frederick Ennin
+
+function navbar($pid)
+{
+}
