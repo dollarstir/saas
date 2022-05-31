@@ -136,4 +136,19 @@ function aboutus()
 
 function faq()
 {
+    $res = fetchall('faq');
+    $num = 0;
+    foreach ($res as $row) {
+        echo '<div class="accordion-item">
+        <div class="accordion-title" data-tab="item1">
+            <h2>How To Order Product?<i class="icofont-stylish-right down-arrow"></i></h2>
+        </div>
+        <div class="accordion-content" id="item1">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+                euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad
+                minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
+                aliquip ex ea commodo.</p>
+        </div>
+    </div>';
+    }
 }
