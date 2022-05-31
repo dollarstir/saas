@@ -254,10 +254,9 @@ function navbar($pid)
                 <div class="header-left">
                     <ul>
                         <li>
-                            <a href="main/../../cdn-cgi/l/email-protection.html#bdd5d8d1d1d2fddbd4c5dc93ded2d0">
+                            <a href="">
                                 <i class="icofont-ui-message"></i>
-                                <span class="__cf_email__"
-                                    data-cfemail="f39b969f9f9cb3959a8b92dd909c9e">[email&#160;protected]</span>
+                                <span class="__cf_email__">[email&#160;protected]</span>
                             </a>
                         </li>
                         <li>
@@ -303,8 +302,8 @@ function navbar($pid)
 <div class="navbar-area">
 
     <div class="mobile-nav">
-        <a href="main/index.html" class="logo">
-            <img loading="lazy" src="main/assets/img/logo.png" alt="logo">
+        <a href="home" class="logo">
+            '.logo().'
         </a>
     </div>
 
