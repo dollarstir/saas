@@ -240,7 +240,11 @@ function partners()
 
 function navbar($pid)
 {
-    echo '<div class="header-area">
+    $pages = [
+        'Home' => 'home',
+        'About' => 'about',
+    ];
+    $tt = '<div class="header-area">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-6">
@@ -309,88 +313,11 @@ function navbar($pid)
                 </a>
                 <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a href="main/#" class="nav-link dropdown-toggle active">Home</a>
-                            <ul class="dropdown-menu">
-                                <li class="nav-item">
-                                    <a href="main/index.html" class="nav-link active">Home Page 1</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="main/index-two.html" class="nav-link">Home Page 2</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="main/index-three.html" class="nav-link">Home Page 3</a>
-                                </li>
-                            </ul>
-                        </li>
+                        
                         <li class="nav-item">
                             <a href="main/about.html" class="nav-link">About</a>
                         </li>
-                        <li class="nav-item">
-                            <a href="main/#" class="nav-link dropdown-toggle">Services</a>
-                            <ul class="dropdown-menu">
-                                <li class="nav-item">
-                                    <a href="main/service.html" class="nav-link">Services One</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="main/service-two.html" class="nav-link">Services Two</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="main/ocean-freight.html" class="nav-link">Ocean Freight</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="main/service-details.html" class="nav-link">Services Details</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a href="main/#" class="nav-link dropdown-toggle">Workers</a>
-                            <ul class="dropdown-menu">
-                                <li class="nav-item">
-                                    <a href="main/worker.html" class="nav-link">Workers Style One</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="main/worker-two.html" class="nav-link">Workers Style Two</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a href="main/#" class="nav-link dropdown-toggle">Pages</a>
-                            <ul class="dropdown-menu">
-                                <li class="nav-item">
-                                    <a href="main/faq.html" class="nav-link">FAQ</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="main/404.html" class="nav-link">404</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="main/why-choose.html" class="nav-link">Why Choose Us</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="main/privacy.html" class="nav-link">Privacy policy</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="main/terms.html" class="nav-link">Terms & Conditions</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a href="main/#" class="nav-link dropdown-toggle">Blog</a>
-                            <ul class="dropdown-menu">
-                                <li class="nav-item">
-                                    <a href="main/blog.html" class="nav-link">Blog</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="main/blog-two.html" class="nav-link">Blog Style Two</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="main/blog-details.html" class="nav-link">Blog Details</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a href="main/contact.html" class="nav-link">Contact Us</a>
-                        </li>
+                        
                     </ul>
                 </div>
             </nav>
