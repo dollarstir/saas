@@ -270,52 +270,8 @@ topbar('Welcome');
                 <h2>We Provide Products Allover The World by Our Transport Systems</h2>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-duration="1s">
-                    <div class="transport-card">
-                        <div class="transport-img">
-                            <img src="main/assets/img/services/1.jpg" alt="transport image">
-                        </div>
-                        <div class="transport-text">
-                            <h3>Air Freight</h3>
-                            <p>A cargo aircraft also known as freight aircraft, freighter, airlifter or cargo jet is a
-                                fixed-wing aircraft that is designed.</p>
-                            <div class="theme-btn">
-                                <a href="service-details.html" class="default-btn">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-                    <div class="transport-card">
-                        <div class="transport-img">
-                            <img src="main/assets/img/services/2.jpg" alt="transport image">
-                        </div>
-                        <div class="transport-text">
-                            <h3>Road Freight</h3>
-                            <p>A cargo aircraft also known as freight aircraft, freighter, airlifter or cargo jet is a
-                                fixed-wing aircraft that is designed.</p>
-                            <div class="theme-btn">
-                                <a href="service-details.html" class="default-btn">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0 wow fadeInUp" data-wow-duration="1s"
-                    data-wow-delay=".6s">
-                    <div class="transport-card">
-                        <div class="transport-img">
-                            <img src="main/assets/img/services/3.jpg" alt="transport image">
-                        </div>
-                        <div class="transport-text">
-                            <h3>Ocean Freight</h3>
-                            <p>A cargo aircraft also known as freight aircraft, freighter, airlifter or cargo jet is a
-                                fixed-wing aircraft that is designed.</p>
-                            <div class="theme-btn">
-                                <a href="ocean-freight.html" class="default-btn">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <?php services(); ?>
+                
             </div>
         </div>
     </section>

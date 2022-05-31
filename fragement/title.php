@@ -189,3 +189,6 @@ function contactpage()
     </div>
 </div>';
 }
+function services()
+{
+}
