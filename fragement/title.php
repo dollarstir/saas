@@ -310,7 +310,7 @@ function navbar($pid)
     <div class="main-nav">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="main/index.html">
+                <a class="navbar-brand" href="home">
                     <img loading="lazy" src="main/assets/img/logo.png" alt="logo">
                 </a>
                 <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
