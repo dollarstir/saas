@@ -496,10 +496,10 @@ topbar('Welcome');
     <section class="worker-section pt-100 pb-70">
         <div class="container">
             <div class="section-title text-center">
-                <span>Workers</span>
-                <h2>Our Valuable Workers</h2>
-                <p>Found parents would couldn't said on. That, feedback there made he was may blind you simple, its yet
-                    a own blind you ago hand.</p>
+                <span>Agents</span>
+                <h2>Our Valuable Agents</h2>
+                <!-- <p>Found parents would couldn't said on. That, feedback there made he was may blind you simple, its yet
+                    a own blind you ago hand.</p> -->
             </div>
             <div class="row">
                 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-duration="1s">
