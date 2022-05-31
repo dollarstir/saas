@@ -30,6 +30,13 @@ $router = new Router([
         }
     ),
 
+    new Route(
+        '/faq',
+        function ($context) {
+            return Viewer::view('main/faq.php', $context);
+        }
+    ),
+
     // admin routes
 
     new Route(
