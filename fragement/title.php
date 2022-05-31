@@ -133,3 +133,7 @@ function aboutus()
     </div>
 </section>';
 }
+
+function faq()
+{
+}

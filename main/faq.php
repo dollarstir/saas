@@ -149,17 +149,7 @@ topbar('Our Trusted Agents');
             <div class="row">
                 <div class="col-lg-6 offset-lg-3">
                     <div class="accordions">
-                        <div class="accordion-item">
-                            <div class="accordion-title" data-tab="item1">
-                                <h2>How To Order Product?<i class="icofont-stylish-right down-arrow"></i></h2>
-                            </div>
-                            <div class="accordion-content" id="item1">
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
-                                    euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad
-                                    minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
-                                    aliquip ex ea commodo.</p>
-                            </div>
-                        </div>
+                        
                         <div class="accordion-item">
                             <div class="accordion-title" data-tab="item2">
                                 <h2>Where I Can Get Brochures?<i class="icofont-stylish-right down-arrow"></i></h2>
@@ -231,8 +221,8 @@ topbar('Our Trusted Agents');
         <div class="container">
             <div class="section-title text-center">
                 <h2>Ask Any Question</h2>
-                <p>Found parents would couldn't said on. That, feedback there made he was may blind you simple, its yet
-                    a own blind you ago hand.</p>
+                <!-- <p>Found parents would couldn't said on. That, feedback there made he was may blind you simple, its yet
+                    a own blind you ago hand.</p> -->
             </div>
             <div class="row">
                 <div class="col-lg-7">
