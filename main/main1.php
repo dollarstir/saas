@@ -502,50 +502,7 @@ topbar('Welcome');
                     a own blind you ago hand.</p> -->
             </div>
             <div class="row">
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-duration="1s">
-                    <div class="worker-card">
-                        <div class="worker-img">
-                            <img loading="lazy" src="main/assets/img/worker/1.jpg" alt="worker image">
-                        </div>
-                        <div class="worker-text">
-                            <h3>John Doe</h3>
-                            <p>Road Freight Collector</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
-                    <div class="worker-card">
-                        <div class="worker-img">
-                            <img loading="lazy" src="main/assets/img/worker/2.jpg" alt="worker image">
-                        </div>
-                        <div class="worker-text">
-                            <h3>Naimuk Waninolin</h3>
-                            <p>Air Freight Collector</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
-                    <div class="worker-card">
-                        <div class="worker-img">
-                            <img loading="lazy" src="main/assets/img/worker/3.jpg" alt="worker image">
-                        </div>
-                        <div class="worker-text">
-                            <h3>Mark Tyson</h3>
-                            <p>Ocean Freight Collector</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
-                    <div class="worker-card">
-                        <div class="worker-img">
-                            <img loading="lazy" src="main/assets/img/worker/4.jpg" alt="worker image">
-                        </div>
-                        <div class="worker-text">
-                            <h3>Jackson</h3>
-                            <p>Road Freight Collector</p>
-                        </div>
-                    </div>
-                </div>
+           <?php  agents(); ?>
             </div>
         </div>
     </section>
@@ -556,40 +513,13 @@ topbar('Welcome');
             <div class="section-title text-center">
                 <span>Feedbacks</span>
                 <h2>Feedback From Our Clients</h2>
-                <p>Found parents would couldn't said on. That, feedback there made he was may blind you simple, its yet
-                    a own blind you ago hand.</p>
+                <!-- <p>Found parents would couldn't said on. That, feedback there made he was may blind you simple, its yet
+                    a own blind you ago hand.</p> -->
             </div>
             <div class="feedback-slider owl-carousel owl-theme">
-                <div class="feedback-items">
-                    <i class="icofont-quote-right"></i>
-                    <p>Thank you for all your help. Your service was exce
-                        lent and very fast. Many thanks for you kind
-                        efficient service. I have already and will be
-                        continue to recommend your services.</p>
-                    <img loading="lazy" src="main/assets/img/feedback/client-1.png" alt="client image">
-                    <h3>Joe Johnson</h3>
-                    <span>Businessman</span>
-                </div>
-                <div class="feedback-items">
-                    <i class="icofont-quote-right"></i>
-                    <p>Thank you for all your help. Your service was exce
-                        lent and very fast. Many thanks for you kind
-                        efficient service. I have already and will be
-                        continue to recommend your services.</p>
-                    <img loading="lazy" src="main/assets/img/feedback/client-2.png" alt="client image">
-                    <h3>Mr. McMachman</h3>
-                    <span>Businessman</span>
-                </div>
-                <div class="feedback-items">
-                    <i class="icofont-quote-right"></i>
-                    <p>Thank you for all your help. Your service was exce
-                        lent and very fast. Many thanks for you kind
-                        efficient service. I have already and will be
-                        continue to recommend your services.</p>
-                    <img loading="lazy" src="main/assets/img/feedback/client-3.png" alt="client image">
-                    <h3>John Doe</h3>
-                    <span>Businessman</span>
-                </div>
+                
+                <?php testimony(); ?>
+                
             </div>
         </div>
     </section>
