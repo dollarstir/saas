@@ -150,66 +150,7 @@ topbar('Our Trusted Agents');
                 <div class="col-lg-6 offset-lg-3">
                     <div class="accordions">
                         
-                        <div class="accordion-item">
-                            <div class="accordion-title" data-tab="item2">
-                                <h2>Where I Can Get Brochures?<i class="icofont-stylish-right down-arrow"></i></h2>
-                            </div>
-                            <div class="accordion-content" id="item2">
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
-                                    euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad
-                                    minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
-                                    aliquip ex ea commodo.</p>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <div class="accordion-title" data-tab="item3">
-                                <h2>How Much Time Take To Deliver Product?<i
-                                        class="icofont-stylish-right down-arrow"></i></h2>
-                            </div>
-                            <div class="accordion-content" id="item3">
-                                <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
-                                    euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad
-                                    minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
-                                    aliquip ex ea commodo.</p>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <div class="accordion-title" data-tab="item4">
-                                <h2>Is It Secure For Online Payment?<i class="icofont-stylish-right down-arrow"></i>
-                                </h2>
-                            </div>
-                            <div class="accordion-content" id="item4">
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
-                                    euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad
-                                    minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
-                                    aliquip ex ea commodo.</p>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <div class="accordion-title" data-tab="item5">
-                                <h2>Should I Payment First?<i class="icofont-stylish-right down-arrow"></i></h2>
-                            </div>
-                            <div class="accordion-content" id="item5">
-                                <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
-                                    euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad
-                                    minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
-                                    aliquip ex ea commodo.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <div class="accordion-title" data-tab="item6">
-                                <h2>How Can I Order Online?<i class="icofont-stylish-right down-arrow"></i></h2>
-                            </div>
-                            <div class="accordion-content" id="item6">
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
-                                    euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad
-                                    minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
-                                    aliquip ex ea commodo.
-                                </p>
-                            </div>
-                        </div>
+                        <?php faq(); ?>
                     </div>
                 </div>
             </div>
