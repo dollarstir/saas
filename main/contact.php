@@ -142,39 +142,7 @@ topbar('Contact Us');
     </div>
 
 
-    <div class="contact-card-section pt-100 pb-70">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-sm-6">
-                    <div class="contact-card">
-                        <i class="icofont-phone"></i>
-                        <a href="tel:+1012345678">+1012345678</a>
-                        <a href="tel:+1087643210">+1087643210</a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="contact-card">
-                        <i class="icofont-ui-message"></i>
-                        <a href="../../cdn-cgi/l/email-protection.html#355d5059595a75535c4d541b565a58"><span
-                                class="__cf_email__"
-                                data-cfemail="f79f929b9b98b7919e8f96d994989a">[email&#160;protected]</span></a>
-                        <a href="../../cdn-cgi/l/email-protection.html#44272b2a3025273004222d3c256a272b29"><span
-                                class="__cf_email__"
-                                data-cfemail="93f0fcfde7f2f0e7d3f5faebf2bdf0fcfe">[email&#160;protected]</span></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 offset-lg-0 offset-sm-3">
-                    <div class="contact-card">
-                        <i class="icofont-location-pin"></i>
-                        <ul>
-                            <li>28/A, New York, USA</li>
-                            <li>32/D, New York, USA</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <?php contactpage(); ?>
 
 
     <section class="contact-section contact-style-two pb-100">
@@ -255,7 +223,7 @@ topbar('Contact Us');
                         <div id="validator-newsletter" class="form-result"></div>
                     </form>
                 </div>
-                <img src="assets/img/newsletter-img.png" alt="newsletter image">
+                <img src="main/assets/img/newsletter-img.png" alt="newsletter image">
             </div>
         </div>
     </div>

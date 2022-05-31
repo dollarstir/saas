@@ -150,3 +150,42 @@ function faq()
     </div>';
     }
 }
+function contactpage()
+{
+    $res = fetchall('contactpage');
+    $row = $res[0];
+
+    echo '<div class="contact-card-section pt-100 pb-70">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-sm-6">
+                <div class="contact-card">
+                    <i class="icofont-phone"></i>
+                    <a href="tel:'.$row['phone1'].'">+'.$row['phone1'].'</a>
+                    <a href="tel:'.$row['phone2'].'">'.$row['phone2'].'</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="contact-card">
+                    <i class="icofont-ui-message"></i>
+                    <a href="mailto:'.$row['email1'].'"><span
+                            class="__cf_email__"
+                            >'.$row['email1'].'</span></a>
+                            <a href="mailto:'.$row['email2'].'"><span
+                            class="__cf_email__"
+                            >'.$row['email2'].'</span></a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 offset-lg-0 offset-sm-3">
+                <div class="contact-card">
+                    <i class="icofont-location-pin"></i>
+                    <ul>
+                        <li>'.$row['address1'].'</li>
+                        <li>'.$row['address2'].'</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>';
+}
