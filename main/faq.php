@@ -1,6 +1,6 @@
 <?php
 involve('header');
-topbar('Our Trusted Agents');
+topbar('Frequently Asked Questions');
 ?>
 
 <body>
