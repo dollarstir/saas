@@ -349,3 +349,8 @@ function privacy()
     <p>'.$row['content'].'</p>
     ';
 }
+
+function toc()
+{
+    $res = 
+}

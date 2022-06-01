@@ -28,7 +28,7 @@ topbar('Terms & Conditions');
                 <h2>Terms and Conditions</h2>
                 <ul>
                     <li>
-                        <a href="index.html">Home</a>
+                        <a href="home">Home</a>
                     </li>
                     <li>Terms and Conditions </li>
                 </ul>
@@ -40,8 +40,12 @@ topbar('Terms & Conditions');
     <div class="terms-section pt-100 pb-100">
         <div class="container">
             <div class="terms-text">
-                <h2>Fixa Terms of Service</h2>
-                <h3>1. Terms</h3>
+                <h2>Terms of Service</h2>
+
+                <ul>
+                    <?php toc(); ?>
+                </ul>
+                <!-- <h3>1. Terms</h3>
                 <p>By accessing the website you are agreeing to be bound by these terms of service, all applicable laws
                     and regulations, and agree that you are responsible for compliance with any applicable local laws.
                     If you do not agree with any of these terms, you are prohibited from using or accessing this site.
@@ -67,7 +71,7 @@ topbar('Terms & Conditions');
                     website you are agreeing to be bound by the then current version of these terms of service.</p>
                 <h3>6. Governing Law</h3>
                 <p>These terms and conditions are governed by and construed in accordance with the laws of UK and you
-                    irrevocably submit to the exclusive jurisdiction of the courts in that State or location.</p>
+                    irrevocably submit to the exclusive jurisdiction of the courts in that State or location.</p> -->
             </div>
         </div>
     </div>
