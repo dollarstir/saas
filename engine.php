@@ -44,6 +44,13 @@ $router = new Router([
         }
     ),
 
+    new Route(
+        '/privacy',
+        function ($context) {
+            return Viewer::view('main/privacy.php', $context);
+        }
+    ),
+
     // admin routes
 
     new Route(
