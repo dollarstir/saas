@@ -352,5 +352,9 @@ function privacy()
 
 function toc()
 {
-    $res = 
+    $res = fetchall('toc');
+
+    foreach ($res as $row) {
+        echo '';
+    }
 }
