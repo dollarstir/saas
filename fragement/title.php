@@ -355,7 +355,7 @@ function toc()
     $res = fetchall('tos');
 
     foreach ($res as $row) {
-        echo '<li>'.$row['title'].'</li>
+        echo '<li><strong>'.$row['title'].'</strong></li>
         <p>'.$row['content'].'</p>
         ';
     }

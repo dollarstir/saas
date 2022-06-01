@@ -91,7 +91,7 @@ topbar('Terms & Conditions');
                         <div id="validator-newsletter" class="form-result"></div>
                     </form>
                 </div>
-                <img src="assets/img/newsletter-img.png" alt="newsletter image">
+                <img src="main/assets/img/newsletter-img.png" alt="newsletter image">
             </div>
         </div>
     </div>
