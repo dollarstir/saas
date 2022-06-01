@@ -3,6 +3,12 @@
 function fservice()
 {
     $res = fetchall('services');
+
+    foreach ($res as $row) {
+        echo '<li>
+        <a href="service/'.$row['id'].'">'.$row['title'].'</a>
+        </li>';
+    }
 }
 
 $a = fetchall('appsettings');
@@ -54,21 +60,7 @@ echo '<footer class="footer-area">
 <div class="footer-widget">
 <h3>Our Services</h3>
 <ul>
-<li>
-<a href="main/service-details.html">Air Freight</a>
-</li>
-<li>
-<a href="main/service-details.html">Road Freight</a>
-</li>
-<li>
-<a href="main/ocean-freight.html">Ocean Freight</a>
-</li>
-<li>
-<a href="main/service-details.html">Warehousing</a>
-</li>
-<li>
-<a href="main/service-details.html">Storage </a>
-</li>
+'.fservice().'
 </ul>
 </div>
 </div>
