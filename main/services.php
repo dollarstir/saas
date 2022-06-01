@@ -19,111 +19,7 @@ topbar('Our Services');
     </div>
 
 
-    <div class="navbar-area">
-
-        <div class="mobile-nav">
-            <a href="index.html" class="logo">
-                <img src="assets/img/logo.png" alt="logo">
-            </a>
-        </div>
-
-        <div class="main-nav">
-            <div class="container">
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <a class="navbar-brand" href="index.html">
-                        <img src="assets/img/logo.png" alt="logo">
-                    </a>
-                    <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto">
-                            <li class="nav-item">
-                                <a href="#" class="nav-link dropdown-toggle">Home</a>
-                                <ul class="dropdown-menu">
-                                    <li class="nav-item">
-                                        <a href="index.html" class="nav-link">Home Page 1</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="index-two.html" class="nav-link">Home Page 2</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="index-three.html" class="nav-link">Home Page 3</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a href="about.html" class="nav-link">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link dropdown-toggle active">Services</a>
-                                <ul class="dropdown-menu">
-                                    <li class="nav-item">
-                                        <a href="service.html" class="nav-link active">Services One</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="service-two.html" class="nav-link">Services Two</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="ocean-freight.html" class="nav-link">Ocean Freight</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="service-details.html" class="nav-link">Services Details</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link dropdown-toggle">Workers</a>
-                                <ul class="dropdown-menu">
-                                    <li class="nav-item">
-                                        <a href="worker.html" class="nav-link">Workers Style One</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="worker-two.html" class="nav-link">Workers Style Two</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link dropdown-toggle">Pages</a>
-                                <ul class="dropdown-menu">
-                                    <li class="nav-item">
-                                        <a href="faq.html" class="nav-link">FAQ</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="404.html" class="nav-link">404</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="why-choose.html" class="nav-link">Why Choose Us</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="privacy.html" class="nav-link">Privacy policy</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="terms.html" class="nav-link">Terms & Conditions</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link dropdown-toggle">Blog</a>
-                                <ul class="dropdown-menu">
-                                    <li class="nav-item">
-                                        <a href="blog.html" class="nav-link">Blog</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="blog-two.html" class="nav-link">Blog Style Two</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="blog-details.html" class="nav-link">Blog Details</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a href="contact.html" class="nav-link">Contact Us</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </div>
-    </div>
-
+    <?php navbar(3); ?>
 
     <div class="page-title title-bg-2">
         <div class="container">
@@ -131,7 +27,7 @@ topbar('Our Services');
                 <h2>Our Services</h2>
                 <ul>
                     <li>
-                        <a href="index.html">Home</a>
+                        <a href="home">Home</a>
                     </li>
                     <li>Our Services</li>
                 </ul>
@@ -147,52 +43,7 @@ topbar('Our Services');
                 <h2>We Provide Products Allover The World by Our Transport Systems</h2>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-duration="1s">
-                    <div class="transport-card">
-                        <div class="transport-img">
-                            <img src="assets/img/services/1.jpg" alt="transport image">
-                        </div>
-                        <div class="transport-text">
-                            <h3>Air Freight</h3>
-                            <p>A cargo aircraft also known as freight aircraft, freighter, airlifter or cargo jet is a
-                                fixed-wing aircraft that is designed.</p>
-                            <div class="theme-btn">
-                                <a href="service-details.html" class="default-btn">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-                    <div class="transport-card">
-                        <div class="transport-img">
-                            <img src="assets/img/services/2.jpg" alt="transport image">
-                        </div>
-                        <div class="transport-text">
-                            <h3>Road Freight</h3>
-                            <p>A cargo aircraft also known as freight aircraft, freighter, airlifter or cargo jet is a
-                                fixed-wing aircraft that is designed.</p>
-                            <div class="theme-btn">
-                                <a href="service-details.html" class="default-btn">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0 wow fadeInUp" data-wow-duration="1s"
-                    data-wow-delay=".6s">
-                    <div class="transport-card">
-                        <div class="transport-img">
-                            <img src="assets/img/services/3.jpg" alt="transport image">
-                        </div>
-                        <div class="transport-text">
-                            <h3>Ocean Freight</h3>
-                            <p>A cargo aircraft also known as freight aircraft, freighter, airlifter or cargo jet is a
-                                fixed-wing aircraft that is designed.</p>
-                            <div class="theme-btn">
-                                <a href="ocean-freight.html" class="default-btn">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <?php services(); ?>
             </div>
         </div>
     </section>
