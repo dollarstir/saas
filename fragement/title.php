@@ -344,5 +344,8 @@ function privacy()
     $res = fetchall('privacy');
     $row = $res[0];
 
-    echo '';
+    echo '<h2>'.$row['title'].'</h2>
+
+    <p>'.$row['content'].'</p>
+    ';
 }
