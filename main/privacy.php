@@ -41,7 +41,7 @@ topbar('Privacy Policy');
     <div class="privacy-section pt-100 pb-100">
         <div class="container">
             <div class="privacy-text">
-                
+                <?php privacy(); ?>
             </div>
         </div>
     </div>
