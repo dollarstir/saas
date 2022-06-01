@@ -69,19 +69,19 @@ echo '<footer class="footer-area">
 <h3>Our Support</h3>
 <ul>
 <li>
- <a href="main/privacy.html">Privacy & Policy</a>
+ <a href="privacy">Privacy & Policy</a>
 </li>
 <li>
-<a href="main/faq.html">FAQS</a>
+<a href="faq">FAQS</a>
 </li>
 <li>
-<a href="main/terms.html">Terms & Conditions</a>
+<a href="terms">Terms & Conditions</a>
 </li>
 <li>
-<a href="main/contact.html">Contact Us</a>
+<a href="main/contactus">Contact Us</a>
 </li>
 <li>
-<a href="main/about.html">About Us</a>
+<a href="aboutus">About Us</a>
 </li>
 </ul>
 </div>
