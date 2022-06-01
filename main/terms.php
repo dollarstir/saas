@@ -42,9 +42,9 @@ topbar('Terms & Conditions');
             <div class="terms-text">
                 <h2>Terms of Service</h2>
 
-                <ul>
+                <ol>
                     <?php toc(); ?>
-                </ul>
+                </ol>
                 <!-- <h3>1. Terms</h3>
                 <p>By accessing the website you are agreeing to be bound by these terms of service, all applicable laws
                     and regulations, and agree that you are responsible for compliance with any applicable local laws.
