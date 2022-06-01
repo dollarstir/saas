@@ -51,6 +51,13 @@ $router = new Router([
         }
     ),
 
+    new Route(
+        '/terms',
+        function ($context) {
+            return Viewer::view('main/terms.php', $context);
+        }
+    ),
+
     // admin routes
 
     new Route(
