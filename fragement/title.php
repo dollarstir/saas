@@ -338,3 +338,11 @@ function navbar($pid)
 
     echo $tt;
 }
+
+function privacy()
+{
+    $res = fetchall('privacy');
+    $row = $res[0];
+
+    echo '';
+}
