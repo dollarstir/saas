@@ -1,5 +1,10 @@
 <?php
 
+function fservice()
+{
+    $res = fetchall('services');
+}
+
 $a = fetchall('appsettings');
 $name = $a[0]['appname'];
 
