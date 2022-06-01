@@ -91,18 +91,16 @@ echo '<footer class="footer-area">
 <h3>Quick Links</h3>
 <ul>
 <li>
-<a href="main/index.html">Home</a>
+<a href="home">Home</a>
 </li>
 <li>
-<a href="main/about.html">About Us</a>
+<a href="aboutus">About Us</a>
 </li>
 <li>
-<a href="main/service.html"> Our Services </a>
+<a href="services"> Our Services </a>
+
 <li>
-<a href="main/blog.html">Our Blog</a>
-</li>
-<li>
-<a href="main/contact.html">Eemrgency Support</a>
+<a href="contactus">Eemrgency Support</a>
 </li>
 </ul>
 </div>
