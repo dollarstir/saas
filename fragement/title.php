@@ -410,22 +410,15 @@ function servicedetail($id)
 {
     $res = fetchall('services');
     $row = $res[0];
-
+    if ($row == null) {
+        // echo 'nothing';
+    }
     echo '<div class="service-post-area">
     <div class="service-details-img">
-        <img src="main/assets/img/services/service-details-2.jpg" alt="service details image">
+        <img src="yolkassets/upload/'.$row['image'].'" alt="service details image">
     </div>
-    <h2>Air Freight</h2>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-        been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a
-        galley of type and scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
-        passages.</p>
-    <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-        suffered alteration in some form, by injected humour, or randomised words which don\'t look
-        even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be
-        sure there isn\'t anything embarrassing hidden in the middle of text.</p>
+    <h2>'.$row['title'].'</h2>
+    <p>'.$row['content'].'</p>
     <div class="row">
         <div class="col-lg-6 col-md-6">
             <div class="post-img">
