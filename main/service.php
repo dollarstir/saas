@@ -103,7 +103,7 @@ topbar('Our Services');
                         <div class="sidebar-widget">
                             <h3>Contact Us</h3>
                             <ul>
-                                <?php sideaddreass(); ?>
+                                <?php sidebaradress(); ?>
                             </ul>
                         </div>
                         <div class="sidebar-widget">

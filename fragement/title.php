@@ -402,6 +402,6 @@ function sidebaradress()
 </li>
 <li>
     <i class="icofont-location-pin"></i>
-    '.$row['adddress'].'
+    '.$row['address'].'
 </li>';
 }
