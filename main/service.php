@@ -40,38 +40,7 @@ topbar('Our Services');
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">
-                    <div class="service-post-area">
-                        <div class="service-details-img">
-                            <img src="main/assets/img/services/service-details-2.jpg" alt="service details image">
-                        </div>
-                        <h2>Air Freight</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-                            galley of type and scrambled it to make a type specimen book. It has survived not only five
-                            centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
-                            passages.</p>
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                            suffered alteration in some form, by injected humour, or randomised words which don't look
-                            even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be
-                            sure there isn't anything embarrassing hidden in the middle of text.</p>
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6">
-                                <div class="post-img">
-                                    <img src="main/assets/img/services/post-img-1.jpg.png" alt="post image">
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6">
-                                <div class="post-img">
-                                    <img src="main/assets/img/services/post-img-2.jpg.png" alt="post image">
-                                </div>
-                            </div>
-                        </div>
-                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                            suffered alteration in some form, by injected humour, or randomised words which don't look
-                            even slightly. If you are going to use a passage of Lorem Ipsum, you need to be sure there
-                            isn't anything embarrassing hidden in the middle of text.</p>
-                    </div>
+                    <?php servicedetail($context['id']); ?>
                 </div>
                 <div class="col-lg-4 wow fadeInUp" data-wow-duration="1s">
                     <div class="service-sidebar">
