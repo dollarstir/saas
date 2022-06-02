@@ -405,3 +405,7 @@ function sidebaradress()
     '.$row['address'].'
 </li>';
 }
+
+servicedetail($id){
+    
+}
