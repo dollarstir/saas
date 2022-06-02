@@ -284,7 +284,7 @@ function navbar($pid)
                             </a>
                         </li>
                         <li>
-                            <a href="main/#" target="_blank">
+                            <a href="'.$row['instagram'].'" target="_blank">
                                 <i class="icofont-instagram"></i>
                             </a>
                         </li>
