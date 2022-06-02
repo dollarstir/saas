@@ -250,7 +250,9 @@ function partners()
 {
     $res = fetchall('partners');
     foreach ($res as $row) {
-        echo '';
+        echo '<div class="company-logo">
+        <a href="'.$row['website'].'"><img src="yolkassets/upload/'.$row['logo'].'" alt="logo"></a>
+    </div>';
     }
 }
 // logical navbar by Frederick Ennin
