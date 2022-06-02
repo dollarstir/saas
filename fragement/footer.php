@@ -47,10 +47,10 @@ echo '<footer class="footer-area">
 <a href="'.$a[0]['instagram'].'" target="_blank">
 <i class="icofont-instagram"></i>
 </a>
-<a href="main/#" target="_blank">
+<a href="'.$a[0]['twitter'].'" target="_blank">
 <i class="icofont-twitter"></i>
 </a>
-<a href="main/#" target="_blank">
+<a href="'.$a[0]['linkedin'].'" target="_blank">
 <i class="icofont-linkedin"></i>
 </a>
 </div>
