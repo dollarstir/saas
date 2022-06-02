@@ -289,7 +289,7 @@ function navbar($pid)
                             </a>
                         </li>
                         <li>
-                            <a href="main/#" target="_blank">
+                            <a href="'.$row['linkedin'].'" target="_blank">
                                 <i class="icofont-linkedin"></i>
                             </a>
                         </li>
