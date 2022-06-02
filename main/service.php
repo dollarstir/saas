@@ -78,7 +78,7 @@ topbar('Our Services');
                         <div class="sidebar-widget">
                             <h3>Download Brochures</h3>
                             <ul>
-                               <?php download($context['id'], 'service'); ?>
+                               <?php donwload('service'); ?>
                                 
                             </ul>
                         </div>

@@ -408,7 +408,9 @@ function sidebaradress()
 
 function servicedetail($id)
 {
-    $res = fetchall('services');
+    $res = customfetch('services', [
+        ['id', '=', $id],
+    ]);
     $row = $res[0];
     if ($row == null) {
         // echo 'nothing';
@@ -419,18 +421,40 @@ function servicedetail($id)
     </div>
     <h2>'.$row['title'].'</h2>
     <p>'.$row['content'].'</p>
-    <div class="row">
-        <div class="col-lg-6 col-md-6">
-            <div class="post-img">
-                <img src="main/assets/img/services/post-img-1.jpg.png" alt="post image">
-            </div>
-        </div>
-        <div class="col-lg-6 col-md-6">
-            <div class="post-img">
-                <img src="main/assets/img/services/post-img-2.jpg.png" alt="post image">
-            </div>
-        </div>
+    
+    
+</div>';
+}
+
+function donwload($type)
+{
+    $res = customfetch('downloads', [['type', '=', $type]]);
+    foreach ($res as $row) {
+        echo ' <li>
+        <a href="">
+            <i class="icofont-file-alt"></i>
+            '.$row['name'].'
+        </a>
+    </li>';
+    }
+}
+
+function agentdetail($id)
+{
+    $res = customfetch('agent', [
+        ['id', '=', $id],
+    ]);
+    $row = $res[0];
+    if ($row == null) {
+        // echo 'nothing';
+    }
+    echo '<div class="service-post-area">
+    <div class="service-details-img">
+        <img src="yolkassets/upload/'.$row['pic'].'" alt="service details image">
     </div>
+    <h2>'.$row['firstname'].''.$row['lastname'].'</h2>
+    <p>'.$row['services'].'</p>
+    
     
 </div>';
 }
