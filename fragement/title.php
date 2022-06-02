@@ -240,6 +240,7 @@ function partners()
 
 function navbar($pid)
 {
+    $rr = fetchall('appsettings');
     $pages = [
         'Home' => 'home',
         'About' => 'aboutus',
