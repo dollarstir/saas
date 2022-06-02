@@ -152,7 +152,7 @@ topbar('Our Services');
     </section>
 
 
-    <div class="company-section company-style-three pb-100">
+    <!-- <div class="company-section company-style-three pb-100">
         <div class="container">
             <div class="company-slider owl-carousel owl-theme">
                 <div class="company-logo">
@@ -172,7 +172,7 @@ topbar('Our Services');
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
 
     <?php involve('footer'); ?>
