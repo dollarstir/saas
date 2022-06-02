@@ -42,7 +42,7 @@ topbar('Our Services');
                 <div class="col-lg-8">
                     <div class="service-post-area">
                         <div class="service-details-img">
-                            <img src="assets/img/services/service-details-2.jpg" alt="service details image">
+                            <img src="main/assets/img/services/service-details-2.jpg" alt="service details image">
                         </div>
                         <h2>Air Freight</h2>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
@@ -58,12 +58,12 @@ topbar('Our Services');
                         <div class="row">
                             <div class="col-lg-6 col-md-6">
                                 <div class="post-img">
-                                    <img src="assets/img/services/post-img-1.jpg.png" alt="post image">
+                                    <img src="main/assets/img/services/post-img-1.jpg.png" alt="post image">
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6">
                                 <div class="post-img">
-                                    <img src="assets/img/services/post-img-2.jpg.png" alt="post image">
+                                    <img src="main/assets/img/services/post-img-2.jpg.png" alt="post image">
                                 </div>
                             </div>
                         </div>
@@ -156,19 +156,19 @@ topbar('Our Services');
         <div class="container">
             <div class="company-slider owl-carousel owl-theme">
                 <div class="company-logo">
-                    <a href="#"><img src="assets/img/company/1.png" alt="logo"></a>
+                    <a href="#"><img src="../main/assets/img/company/1.png" alt="logo"></a>
                 </div>
                 <div class="company-logo">
-                    <a href="#"><img src="assets/img/company/2.png" alt="logo"></a>
+                    <a href="#"><img src="../main/assets/img/company/2.png" alt="logo"></a>
                 </div>
                 <div class="company-logo">
-                    <a href="#"><img src="assets/img/company/3.png" alt="logo"></a>
+                    <a href="#"><img src="../main/assets/img/company/3.png" alt="logo"></a>
                 </div>
                 <div class="company-logo">
-                    <a href="#"><img src="assets/img/company/4.png" alt="logo"></a>
+                    <a href="#"><img src="../main/assets/img/company/4.png" alt="logo"></a>
                 </div>
                 <div class="company-logo">
-                    <a href="#"><img src="assets/img/company/5.png" alt="logo"></a>
+                    <a href="#"><img src="../main/assets/img/company/5.png" alt="logo"></a>
                 </div>
             </div>
         </div>

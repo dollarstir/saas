@@ -215,6 +215,9 @@ function services()
     }
 }
 
+function correct($link)
+{
+}
 function testimony()
 {
     $res = fetchall('testimony');

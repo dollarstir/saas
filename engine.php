@@ -65,6 +65,13 @@ $router = new Router([
         }
     ),
 
+    new Route(
+        '/service/{id}',
+        function ($context) {
+            return Viewer::view('main/service.php', $context);
+        }
+    ),
+
     // admin routes
 
     new Route(
