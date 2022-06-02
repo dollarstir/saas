@@ -41,10 +41,10 @@ echo '<footer class="footer-area">
 </li>
 </ul>
 <div class="footer-social">
-<a href="main/#" target="_blank">
+<a href="'.$a[0]['facebook'].'" target="_blank">
 <i class="icofont-facebook"></i>
 </a>
-<a href="main/#" target="_blank">
+<a href="'.$a[0]['instagram'].'" target="_blank">
 <i class="icofont-instagram"></i>
 </a>
 <a href="main/#" target="_blank">
