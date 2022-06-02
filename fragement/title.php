@@ -256,15 +256,15 @@ function navbar($pid)
                 <div class="header-left">
                     <ul>
                         <li>
-                            <a href="">
+                            <a href="mailto:'.$row['email'].'">
                                 <i class="icofont-ui-message"></i>
                                 <span class="__cf_email__">'.$row['email'].'</span>
                             </a>
                         </li>
                         <li>
-                            <a href="main/tel:+10235415654">
+                            <a href="tel:'.$row['contact'].'">
                                 <i class="icofont-phone"></i>
-                                +10235415654
+                                '.$row['contact'].'
                             </a>
                         </li>
                     </ul>
@@ -274,7 +274,7 @@ function navbar($pid)
                 <div class="header-right">
                     <ul class="header-social">
                         <li>
-                            <a href="main/#" target="_blank">
+                            <a href="'.$row['facebook'].'" target="_blank">
                                 <i class="icofont-facebook"></i>
                             </a>
                         </li>
