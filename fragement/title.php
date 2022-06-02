@@ -241,6 +241,7 @@ function partners()
 function navbar($pid)
 {
     $rr = fetchall('appsettings');
+    $row = $rr[0];
     $pages = [
         'Home' => 'home',
         'About' => 'aboutus',
@@ -257,7 +258,7 @@ function navbar($pid)
                         <li>
                             <a href="">
                                 <i class="icofont-ui-message"></i>
-                                <span class="__cf_email__">[email&#160;protected]</span>
+                                <span class="__cf_email__">'.$row['email'].'</span>
                             </a>
                         </li>
                         <li>
