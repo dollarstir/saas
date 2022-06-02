@@ -49,66 +49,7 @@ topbar('Our Services');
     </section>
 
 
-    <div class="choose-style-two pb-70">
-        <div class="container">
-            <div class="section-title text-center">
-                <h2>We are Top Rated Transport Logistic</h2>
-                <!-- <p>Found parents would couldn't said on. That, feedback there made he was may blind you simple, its yet
-                    a own blind you ago hand.</p> -->
-            </div>
-            <div class="row align-items-center">
-                <div class="col-lg-3">
-                    <div class="row">
-                        <div class="col-lg-12 col-sm-4 wow fadeInUp" data-wow-duration="1s">
-                            <div class="choose-card">
-                                <i class="icofont-fast-delivery"></i>
-                                <h3>Fast & Safe Delivery</h3>
-                            </div>
-                        </div>
-                        <div class="col-lg-12 col-sm-4 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
-                            <div class="choose-card">
-                                <i class="icofont-ssl-security"></i>
-                                <h3>Product Security</h3>
-                            </div>
-                        </div>
-                        <div class="col-lg-12 col-sm-4 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
-                            <div class="choose-card">
-                                <i class="icofont-diamond"></i>
-                                <h3>Price Oriented </h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="why-choose-image">
-                        <img src="main/assets/img/why-choose/choose-img.png" alt="why Choose image">
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="row">
-                        <div class="col-lg-12 col-sm-4">
-                            <div class="choose-card">
-                                <i class="icofont-ui-browser"></i>
-                                <h3>Secured Payment</h3>
-                            </div>
-                        </div>
-                        <div class="col-lg-12 col-sm-4">
-                            <div class="choose-card">
-                                <i class="icofont-live-support"></i>
-                                <h3>24/7 Support</h3>
-                            </div>
-                        </div>
-                        <div class="col-lg-12 col-sm-4">
-                            <div class="choose-card">
-                                <i class="icofont-like"></i>
-                                <h3>Well Experienced</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    
 
 
     <div class="newsletter-section">

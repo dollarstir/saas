@@ -5,7 +5,7 @@ function fservice()
     $res = fetchall('services');
 
     foreach ($res as $row) {
-        echo '<li>
+        return '<li>
         <a href="service/'.$row['id'].'">'.$row['title'].'</a>
         </li>';
     }

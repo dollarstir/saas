@@ -207,7 +207,7 @@ function services()
                 <h3>'.$row['title'].'</h3>
                 <p>'.$content.'</p>
                 <div class="theme-btn">
-                    <a href="service-details.html" class="default-btn">Read More</a>
+                    <a href="service/'.$row['id'].'" class="default-btn">Read More</a>
                 </div>
             </div>
         </div>
@@ -431,9 +431,6 @@ function servicedetail($id)
             </div>
         </div>
     </div>
-    <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-        suffered alteration in some form, by injected humour, or randomised words which don\'t look
-        even slightly. If you are going to use a passage of Lorem Ipsum, you need to be sure there
-        isn\'t anything embarrassing hidden in the middle of text.</p>
+    
 </div>';
 }
