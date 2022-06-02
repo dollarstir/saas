@@ -103,23 +103,7 @@ topbar('Our Services');
                         <div class="sidebar-widget">
                             <h3>Contact Us</h3>
                             <ul>
-                                <li>
-                                    <a href="tel:+10235415654">
-                                        <i class="icofont-phone"></i>
-                                        +10235415654
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="../../cdn-cgi/l/email-protection.html#0a626f6666654a6c63726b24696567">
-                                        <i class="icofont-ui-message"></i>
-                                        <span class="__cf_email__"
-                                            data-cfemail="1c74797070735c7a75647d327f7371">[email&#160;protected]</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <i class="icofont-location-pin"></i>
-                                    28/A , New York, USA
-                                </li>
+                                <?php sideaddreass(); ?>
                             </ul>
                         </div>
                         <div class="sidebar-widget">

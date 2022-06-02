@@ -381,3 +381,27 @@ function toc()
         ';
     }
 }
+
+function sidebaradress()
+{
+    $re = fetchall('appsettings');
+
+    $row = $re[0];
+
+    echo '<li>
+    <a href="tel:'.$row['contact'].'">
+        <i class="icofont-phone"></i>
+        '.$row['contact'].'
+    </a>
+</li>
+<li>
+    <a href="mailto:'.$row['email'].'">
+        <i class="icofont-ui-message"></i>
+        <span class="__cf_email__">'.$row['email'].'</span>
+    </a>
+</li>
+<li>
+    <i class="icofont-location-pin"></i>
+    '.$row['adddress'].'
+</li>';
+}
