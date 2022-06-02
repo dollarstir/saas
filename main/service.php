@@ -78,24 +78,8 @@ topbar('Our Services');
                         <div class="sidebar-widget">
                             <h3>Download Brochures</h3>
                             <ul>
-                                <li>
-                                    <a href="#">
-                                        <i class="icofont-file-alt"></i>
-                                        Brochures (1)
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="icofont-file-alt"></i>
-                                        Brochures (2)
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="icofont-file-alt"></i>
-                                        Brochures (3)
-                                    </a>
-                                </li>
+                               <?php download($context['id'], 'service'); ?>
+                                
                             </ul>
                         </div>
                     </div>
