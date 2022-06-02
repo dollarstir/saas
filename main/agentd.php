@@ -1,6 +1,6 @@
 <?php
 involve('header');
-topbar('Our Services');
+topbar('Our Agent');
 ?>
 
 <body>
@@ -19,17 +19,17 @@ topbar('Our Services');
     </div>
 
 
-    <?php navbar(3); ?>
+    <?php navbar(4); ?>
 
     <div class="page-title title-bg-5">
         <div class="container">
             <div class="title-text text-center">
-                <h2>Service Details </h2>
+                <h2>Agent Detail </h2>
                 <ul>
                     <li>
                         <a href="home">Home</a>
                     </li>
-                    <li>Service Details</li>
+                    <li>Agent Details</li>
                 </ul>
             </div>
         </div>
@@ -40,9 +40,9 @@ topbar('Our Services');
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">
-                    <?php servicedetail($context['id']); ?>
+                    <?php agentdetail($context['id']); ?>
                 </div>
-                <div class="col-lg-4 wow fadeInUp" data-wow-duration="1s">
+                <!-- <div class="col-lg-4 wow fadeInUp" data-wow-duration="1s">
                     <div class="service-sidebar">
                         <div class="sidebar-widget">
                             <h3>Features</h3>
@@ -83,7 +83,7 @@ topbar('Our Services');
                             </ul>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>

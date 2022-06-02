@@ -72,6 +72,13 @@ $router = new Router([
         }
     ),
 
+    new Route(
+        '/agent/{id}',
+        function ($context) {
+            return Viewer::view('main/agentd.php', $context);
+        }
+    ),
+
     // admin routes
 
     new Route(
