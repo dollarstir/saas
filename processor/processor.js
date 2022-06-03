@@ -449,7 +449,7 @@ $('.delslide').click(function(e){
 
 // sending question
 
-$('.addtestimony').submit(function(e){
+$('.question').submit(function(e){
 
   e.preventDefault();
   // before();

@@ -66,14 +66,18 @@ if (isset($_GET['action'])) {
             ], $_FILES, '../yolkassets/upload/');
             break;
 
-        case 'addpractice':
+        case 'question':
                 extract($_POST);
-                echo  $res = insert('practiceareas',
-                [
-                    'title' => $title,
-                    'content' => $content,
-                    'btntitle' => $btntitle,
-                ], $_FILES, '../yolkassets/upload/');
+                $dd = date('jS F, Y');
+
+            echo $res = insert('messages', [
+                'name' => $name,
+                'email' => $email,
+                'phone' => $phone,
+                'subject' => $subject,
+                'message' => $message,
+                'datesent' => $dd,
+            ]);
             break;
 
         case 'addaward':

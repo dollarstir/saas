@@ -70,7 +70,7 @@ topbar('Contact Us');
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input type="number" name="number" id="number" class="form-control" required
+                                        <input type="number" name="phone" id="number" class="form-control" required
                                             data-error="Please enter your number" placeholder="Phone Number">
                                         <div class="help-block with-errors"></div>
                                     </div>

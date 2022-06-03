@@ -17,4 +17,6 @@ echo '<script data-cfasync="false" src="main/../../cdn-cgi/scripts/5c5dd728/clou
 
 <script src="main/assets/js/meanmenu.js"></script>
 
-<script src="main/assets/js/custom.js"></script>';
+<script src="main/assets/js/custom.js"></script>
+'.Yolk::uicore('jsa').'
+<script src="processor/processor.js"></script>';

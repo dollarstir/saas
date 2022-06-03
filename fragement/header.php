@@ -28,6 +28,7 @@ function topbar($title = 'Blank Page')
     <link rel="stylesheet" href="main/assets/css/style.css">
     
     <link rel="stylesheet" href="main/assets/css/responsive.css">
+    '.Yolk::uicore('cssa').'
     
     <title>'.title($title).'</title>
     
