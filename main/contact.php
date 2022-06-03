@@ -52,7 +52,7 @@ topbar('Contact Us');
             <div class="row">
                 <div class="col-lg-10 offset-lg-1">
                     <div class="contact-area">
-                        <form id="contactForm">
+                        <form id="contactForm" class="question">
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
