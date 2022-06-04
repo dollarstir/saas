@@ -80,61 +80,10 @@ if (isset($_GET['action'])) {
             ]);
             break;
 
-        case 'addaward':
+        case 'newsletter':
                 extract($_POST);
-                echo  $res = insert('awards',
-                [
-                    'content' => $content,
-                ], $_FILES, '../yolkassets/upload/');
-            break;
 
-        case 'addtestimony':
-                extract($_POST);
-                echo  $res = insert('testimony',
-                [
-                    'name' => $name,
-                    'position' => $position,
-                    'comment' => $comment,
-                ], $_FILES, '../yolkassets/upload/');
-            break;
-
-        case 'editabout':
-                extract($_POST);
-                echo  $res = update('aboutpage',
-                [
-                    'content' => $content,
-                ], [], $_FILES, '../yolkassets/upload/');
-            break;
-
-        case 'editceo':
-                extract($_POST);
-                echo  $res = update('ceo',
-                [
-                    'content' => $content,
-                ], [], $_FILES, '../yolkassets/upload/');
-            break;
-
-        case 'appsettings':
-                extract($_POST);
-                echo  $res = update('settings',
-                [
-                    'appname' => $appname,
-                    'footertext' => $footertext,
-                    'facebook' => $facebook,
-                    'twitter' => $twitter,
-                    'linkedin' => $linkedin,
-                    'skype' => $skype,
-                    'shortnote' => $shortnote,
-                ], [], $_FILES, '../yolkassets/upload/');
-            break;
-
-        case 'profilesettings':
-                extract($_POST);
-                echo  $res = update('supper',
-                [
-                    'name' => $name,
-                    'email' => $email,
-                ], ['id' => $id], $_FILES, '../yolkassets/upload/');
+                echo $res = insert('newsletter', ['email' => $email]);
             break;
 
         case 'addadmin':
