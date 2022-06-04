@@ -83,7 +83,7 @@ topbar('Terms & Conditions');
                 <h2>Join Newsletter For Daily Update</h2>
                 <div class="col-lg-6 p-0">
                     <form class="newsletter-form" data-bs-toggle="validator">
-                        <input type="email" class="form-control" placeholder="Enter Your Email" name="EMAIL" required
+                        <input type="email" class="form-control" placeholder="Enter Your Email" name="email" required
                             autocomplete="off">
                         <button class="default-btn electronics-btn" type="submit">
                             Subscribe Now
