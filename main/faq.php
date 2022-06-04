@@ -172,7 +172,7 @@ topbar('Frequently Asked Questions');
                 </div>
                 <div class="col-lg-5">
                     <div class="contact-area">
-                        <form id="contactForm">
+                        <form id="contactForm" class="question">
                             <h2>Lets Talk!</h2>
                             <div class="row">
                                 <div class="col-md-12 col-sm-6">
@@ -191,7 +191,7 @@ topbar('Frequently Asked Questions');
                                 </div>
                                 <div class="col-md-12 col-sm-6">
                                     <div class="form-group">
-                                        <input type="number" name="number" id="number" class="form-control" required
+                                        <input type="number" name="phone" id="number" class="form-control" required
                                             data-error="Please enter your number" placeholder="Phone Number">
                                         <div class="help-block with-errors"></div>
                                     </div>
